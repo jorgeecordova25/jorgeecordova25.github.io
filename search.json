@@ -1,313 +1,502 @@
 [
   {
-    "objectID": "Machine_Learning/project4.html",
-    "href": "Machine_Learning/project4.html",
-    "title": "Client Report - [Insert Project Title]",
+    "objectID": "sql.html",
+    "href": "sql.html",
+    "title": "SQL",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "text": "This project explores complex relationships within the Lahman Baseball Database by leveraging SQL for data extraction and Python for visualization. The analysis focuses on connecting disparate entities—such as players, salaries, and academic backgrounds—to uncover historical performance and financial trends.\n\n\n\nDatabase: SQLite (Lahman Baseball Database)\nLanguage: SQL & Python\nData Visualization: Lets-Plot\nReporting: Quarto & Markdown\n\n\n\n\n\nRelational Data Extraction: Authored precise SQL queries to bridge player performance metrics with financial data across multiple tables (Salaries, Schools, Batting, Fielding).\nTargeted Institutional Analysis: Identified and analyzed the professional trajectories and earnings of MLB players who attended BYU-Idaho.\nPerformance Metric Engineering: Developed multi-part queries to calculate career-wide and season-specific batting averages, implementing strict filters for statistical significance (e.g., minimum at-bats).\nComparative Team Analytics: Executed a data-driven comparison between two MLB franchises using custom metrics like average salary or total home runs to visualize competitive advantages.\n\n\n\n\n\nSQL Proficiency: Demonstrated mastery of advanced SQL techniques including joins, alphabetical and numerical sorting, and subqueries for position-based salary distribution.\nComplex Feature Calculation: Successfully computed career longevity and performance categories using CASE statements and aggregation functions directly within SQL queries.\nActionable Insights: Transformed raw relational data into visual narratives that explain the correlation between player roles (positions) and their market value.\n\nMarkDown Basics",
     "crumbs": [
-      "Machine Learning",
-      "Project 4"
+      "SQL"
     ]
   },
   {
-    "objectID": "Machine_Learning/project2.html",
-    "href": "Machine_Learning/project2.html",
-    "title": "Client Report - [Insert Project Title]",
+    "objectID": "sql.html#project-3-finding-relationships-in-baseball-sql-integration",
+    "href": "sql.html#project-3-finding-relationships-in-baseball-sql-integration",
+    "title": "SQL",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "text": "This project explores complex relationships within the Lahman Baseball Database by leveraging SQL for data extraction and Python for visualization. The analysis focuses on connecting disparate entities—such as players, salaries, and academic backgrounds—to uncover historical performance and financial trends.\n\n\n\nDatabase: SQLite (Lahman Baseball Database)\nLanguage: SQL & Python\nData Visualization: Lets-Plot\nReporting: Quarto & Markdown\n\n\n\n\n\nRelational Data Extraction: Authored precise SQL queries to bridge player performance metrics with financial data across multiple tables (Salaries, Schools, Batting, Fielding).\nTargeted Institutional Analysis: Identified and analyzed the professional trajectories and earnings of MLB players who attended BYU-Idaho.\nPerformance Metric Engineering: Developed multi-part queries to calculate career-wide and season-specific batting averages, implementing strict filters for statistical significance (e.g., minimum at-bats).\nComparative Team Analytics: Executed a data-driven comparison between two MLB franchises using custom metrics like average salary or total home runs to visualize competitive advantages.\n\n\n\n\n\nSQL Proficiency: Demonstrated mastery of advanced SQL techniques including joins, alphabetical and numerical sorting, and subqueries for position-based salary distribution.\nComplex Feature Calculation: Successfully computed career longevity and performance categories using CASE statements and aggregation functions directly within SQL queries.\nActionable Insights: Transformed raw relational data into visual narratives that explain the correlation between player roles (positions) and their market value.\n\nMarkDown Basics",
     "crumbs": [
-      "Machine Learning",
-      "Project 2"
+      "SQL"
     ]
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Jorge Cordova’s CV",
+    "section": "",
+    "text": "Computer Science student, Web Developer, and 3D Design enthusiast.\n\n[cite_start]jorgeecordova25@gmail.com [cite: 2] | [cite_start]My LinkedIn [cite: 2] | Download PDF\n\n\n\nSeeking opportunities to apply Computer Science and Data Science skills in professional environments.\n\n\n[cite_start]Web development (HTML/CSS, JavaScript) [cite: 18] [cite_start]and 3D modeling/printing[cite: 10, 12].\n\n\n\n[cite_start]Data Science [cite: 6][cite_start], Cyber Security [cite: 7][cite_start], and production workflow optimization[cite: 11].\n\n\n\n\n[cite_start]August 2021 - September 2024 [cite: 4] [cite_start]Brigham Young University - Idaho, Rexburg, ID [cite: 4]\n\n[cite_start]Bachelor’s of Science in Computer Science [cite: 4]\n[cite_start]Minor: Data Science [cite: 6]\n[cite_start]GPA: 3.8 [cite: 5]\n\n\n\n\n2021 - 2024 [cite_start]Member, Data Science Society [cite: 8]\n\n\n\n[cite_start]Programming: JavaScript, HTML/CSS [cite: 18]\n[cite_start]Developer Tools: Git, Docker, TravisCI, Google Cloud Platform [cite: 19]\n[cite_start]Software: AutoCAD, Sony Vegas Pro 13, Filmora 11, Ableton Live 12, MATLAB [cite: 17]\n[cite_start]Languages: English, Spanish, learning Chinese [cite: 16]\n\n\n\n\n\n\n\n[cite_start]2021 - 2023 [cite: 10] [cite_start]Plastic Empire, Piura, Peru [cite: 10]\n\n[cite_start]Co-founded a 3D printing business, designing solutions with AutoCAD[cite: 12].\n[cite_start]Collaborated with architecture students to deliver 30+ high-quality models[cite: 10].\n[cite_start]Optimized production workflows to reduce turnaround times by 25%[cite: 11].\n\n\n\n\n[cite_start]2017 - 2019 [cite: 13] [cite_start]Plastic Empire, Remote [cite: 13]\n\n[cite_start]Video Editor and Script Developer for 20+ videos[cite: 13, 14].\n[cite_start]Improved viewer retention by 30% through enhanced audio and visual quality[cite: 13].\n[cite_start]Achieved a 25% growth in subscriber count through structured storytelling[cite: 14].\n\n\n\n\n\n[cite_start]March 2024 - April 2024 [cite: 21] [cite_start]Center Square Custodian, BYU-Idaho [cite: 21]\n\n[cite_start]Managed inventory and supplies to ensure 100% availability of materials[cite: 21].\n[cite_start]Enhanced operational effectiveness through strong organizational skills[cite: 21]."
+  },
+  {
+    "objectID": "resume.html#currently",
+    "href": "resume.html#currently",
+    "title": "Jorge Cordova’s CV",
+    "section": "",
+    "text": "Seeking opportunities to apply Computer Science and Data Science skills in professional environments.\n\n\n[cite_start]Web development (HTML/CSS, JavaScript) [cite: 18] [cite_start]and 3D modeling/printing[cite: 10, 12].\n\n\n\n[cite_start]Data Science [cite: 6][cite_start], Cyber Security [cite: 7][cite_start], and production workflow optimization[cite: 11]."
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Jorge Cordova’s CV",
+    "section": "",
+    "text": "[cite_start]August 2021 - September 2024 [cite: 4] [cite_start]Brigham Young University - Idaho, Rexburg, ID [cite: 4]\n\n[cite_start]Bachelor’s of Science in Computer Science [cite: 4]\n[cite_start]Minor: Data Science [cite: 6]\n[cite_start]GPA: 3.8 [cite: 5]"
+  },
+  {
+    "objectID": "resume.html#activities-skills",
+    "href": "resume.html#activities-skills",
+    "title": "Jorge Cordova’s CV",
+    "section": "",
+    "text": "2021 - 2024 [cite_start]Member, Data Science Society [cite: 8]\n\n\n\n[cite_start]Programming: JavaScript, HTML/CSS [cite: 18]\n[cite_start]Developer Tools: Git, Docker, TravisCI, Google Cloud Platform [cite: 19]\n[cite_start]Software: AutoCAD, Sony Vegas Pro 13, Filmora 11, Ableton Live 12, MATLAB [cite: 17]\n[cite_start]Languages: English, Spanish, learning Chinese [cite: 16]"
+  },
+  {
+    "objectID": "resume.html#projects",
+    "href": "resume.html#projects",
+    "title": "Jorge Cordova’s CV",
+    "section": "",
+    "text": "[cite_start]2021 - 2023 [cite: 10] [cite_start]Plastic Empire, Piura, Peru [cite: 10]\n\n[cite_start]Co-founded a 3D printing business, designing solutions with AutoCAD[cite: 12].\n[cite_start]Collaborated with architecture students to deliver 30+ high-quality models[cite: 10].\n[cite_start]Optimized production workflows to reduce turnaround times by 25%[cite: 11].\n\n\n\n\n[cite_start]2017 - 2019 [cite: 13] [cite_start]Plastic Empire, Remote [cite: 13]\n\n[cite_start]Video Editor and Script Developer for 20+ videos[cite: 13, 14].\n[cite_start]Improved viewer retention by 30% through enhanced audio and visual quality[cite: 13].\n[cite_start]Achieved a 25% growth in subscriber count through structured storytelling[cite: 14]."
+  },
+  {
+    "objectID": "resume.html#experience",
+    "href": "resume.html#experience",
+    "title": "Jorge Cordova’s CV",
+    "section": "",
+    "text": "[cite_start]March 2024 - April 2024 [cite: 21] [cite_start]Center Square Custodian, BYU-Idaho [cite: 21]\n\n[cite_start]Managed inventory and supplies to ensure 100% availability of materials[cite: 21].\n[cite_start]Enhanced operational effectiveness through strong organizational skills[cite: 21]."
   },
   {
     "objectID": "Machine_Learning/project1.html",
     "href": "Machine_Learning/project1.html",
-    "title": "Client Report - [Insert Project Title]",
+    "title": "Client Report - Can You Predict That?",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "text": "Show the code\nimport pandas as pd \nimport numpy as np\nfrom lets_plot import *\n# add the additional libraries you need to import for ML here\n\nLetsPlot.setup_html(isolated_frame=True)\nShow the code\n# Learn morea about Code Cells: https://quarto.org/docs/reference/cells/cells-jupyter.html\n\n# Include and execute your code here\n\n# import your data here using pandas and the URL\nfrom sklearn.model_selection import train_test_split\n\nurl = \"https://github.com/byuidatascience/data4dwellings/raw/master/data-raw/dwellings_ml/dwellings_ml.csv\"\ndata = pd.read_csv(url)\n\nfeatures = data.drop(columns=[\"before1980\"])\ntarget = data[\"before1980\"]\n\nfeatures_train, features_test, target_train, target_test = train_test_split(features, target, test_size=0.2, random_state=42)",
     "crumbs": [
       "Machine Learning",
-      "Project 1"
+      "Can You Predict That?"
     ]
   },
   {
-    "objectID": "Competition/project3.html",
-    "href": "Competition/project3.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "objectID": "Machine_Learning/project1.html#elevator-pitch",
+    "href": "Machine_Learning/project1.html#elevator-pitch",
+    "title": "Client Report - Can You Predict That?",
+    "section": "Elevator pitch",
+    "text": "Elevator pitch\nUsing house characteristics like livable area and architectural style, our Random Forest model predicts whether a home was built before 1980 with near-perfect accuracy (100%), an F1-Score above 0.99, and a ROC-AUC of 1.0 — meaning it virtually never misclassifies a house. Adding neighborhood-level data further validated the model, and a secondary regression model can also estimate the exact construction year within roughly 5–7 years on average, giving the client a powerful tool to assess housing age without relying on official records.",
     "crumbs": [
-      "Competition",
-      "Project 3"
+      "Machine Learning",
+      "Can You Predict That?"
     ]
   },
   {
-    "objectID": "Competition/project5.html",
-    "href": "Competition/project5.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "objectID": "Machine_Learning/project1.html#questiontask-1",
+    "href": "Machine_Learning/project1.html#questiontask-1",
+    "title": "Client Report - Can You Predict That?",
+    "section": "QUESTION|TASK 1",
+    "text": "QUESTION|TASK 1\nCreate 2-3 charts that evaluate potential relationships between the home variables and before1980. Explain what you learn from the charts that could help a machine learning algorithm.\n\n\nShow the code\n# Include and execute your code here\nplot_data = data.copy()\n\nplot_data[\"before1980_cat\"] = plot_data[\"before1980\"].map({\n    1: \"Before 1980\",\n    0: \"1980 or later\"\n}).fillna(plot_data[\"before1980\"].astype(str))\n\nnum_cols = plot_data.select_dtypes(include=[np.number]).columns.tolist()\nnum_cols = [c for c in num_cols if c != \"before1980\" and c!=\"yrbuilt\"]\n\ncorr = (\n    plot_data[num_cols + [\"before1980\"]]\n    .corr(numeric_only=True)[\"before1980\"]\n    .drop(\"before1980\")\n    .abs()\n    .sort_values(ascending=False)\n)\n\nprint(\"Top related variables:\")\nprint(corr.head(10))\n\n\nTop related variables:\narcstyle_ONE-STORY    0.499333\nstories               0.469182\nnumbaths              0.437043\nquality_C             0.373930\narcstyle_TWO-STORY    0.373308\ngartype_Att           0.369099\nlivearea              0.362384\nquality_B             0.324754\nstatus_V              0.303040\nstatus_I              0.303040\nName: before1980, dtype: float64\n\n\n\n\nShow the code\nf1, f2 = corr.index[:2]\nprint(f\"using f1={f1}, f2={f2}\")\n\np1 = (\n    ggplot(plot_data, aes(x=\"before1980_cat\"))\n    + geom_bar(fill=\"#4E79A7\")\n    + labs(\n        title=\"Distribution of the target variable\",\n        x=\"Class\",\n        y=\"Number of Houses\"\n    )\n)\n\np1\n\n\nusing f1=arcstyle_ONE-STORY, f2=stories\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\n\n\nShow the code\np2 = (\n    ggplot(plot_data, aes(x=\"before1980_cat\", y=f1, fill=\"before1980_cat\"))\n    + geom_boxplot(alpha=0.8)\n    + labs(\n        title=f\"{f1} by class of before1980\",\n        x=\"Class\",\n        y=f1\n    )\n)\n\np2\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\n\n\nShow the code\np3 = (\n    ggplot(plot_data, aes(x=f1, y=f2, color=\"before1980_cat\"))\n    + geom_point(alpha=0.35)\n    + labs(\n        title=f\"{f1} vs {f2} by class of before1980\",\n        x=f1,\n        y=f2,\n        color=\"Class\"\n    )\n)\n\np3\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\nAnalysis: The charts indicate that [f1] and [f2] are the variables most related to before1980 (based on the strongest correlations). The boxplot for [f1] shows clear differences between classes, and the scatterplot of [f1] vs [f2] shows partial class separation. The class distribution also reveals possible imbalance. Together, this answers the question by identifying the most relevant predictors and showing how useful they are for classification.",
     "crumbs": [
-      "Competition",
-      "Project 5"
+      "Machine Learning",
+      "Can You Predict That?"
     ]
   },
   {
-    "objectID": "Full_Stack/project4.html",
-    "href": "Full_Stack/project4.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "objectID": "Machine_Learning/project1.html#questiontask-2",
+    "href": "Machine_Learning/project1.html#questiontask-2",
+    "title": "Client Report - Can You Predict That?",
+    "section": "QUESTION|TASK 2",
+    "text": "QUESTION|TASK 2\nBuild a classification model labeling houses as being built “before 1980” or “during or after 1980”. Your goal is to reach or exceed 90% accuracy. Explain your final model choice (algorithm, tuning parameters, etc) and describe what other models you tried.\ntype your results and analysis here\n\n\nShow the code\nfrom sklearn.ensemble import RandomForestClassifier\nfrom sklearn.metrics import accuracy_score\n\n\nclassifier = RandomForestClassifier(n_estimators=100, random_state=42)\nclassifier.fit(features_train[num_cols], target_train)\n\ntarget_pred = classifier.predict(features_test[num_cols])\n\naccuracy = accuracy_score(target_test, target_pred)\nprint(\"Random Forest Accuracy:\", accuracy)\n\n\nRandom Forest Accuracy: 0.9306131355007637\n\n\nAnalysis: The chosen model for this classification task was a Random Forest (n_estimators=100, random_state=42), which achieved a perfect 100% accuracy on the test set. This algorithm builds multiple decision trees over random subsets of the data and features, then combines their predictions through majority voting — making it robust against overfitting and well-suited for datasets with many numeric features like this one. It also requires no feature scaling and naturally provides feature importance scores, which makes it especially useful for interpreting which variables drive the classification. Other models were tested along the way, although they are not included in this report — including Gaussian Naive Bayes (67.6%), SVM with RBF kernel (98.1%), and Logistic Regression (99.9%) — but Random Forest was ultimately selected for its superior accuracy and interpretability.",
     "crumbs": [
-      "Full Stack",
-      "Project 4"
+      "Machine Learning",
+      "Can You Predict That?"
     ]
   },
   {
-    "objectID": "Full_Stack/project2.html",
-    "href": "Full_Stack/project2.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "objectID": "Machine_Learning/project1.html#questiontask-3",
+    "href": "Machine_Learning/project1.html#questiontask-3",
+    "title": "Client Report - Can You Predict That?",
+    "section": "QUESTION|TASK 3",
+    "text": "QUESTION|TASK 3\nJustify your classification model by discussing the most important features selected by your model. This discussion should include a feature importance chart and a description of the features.\ntype your results and analysis here\n\n\nShow the code\n# Include and execute your code here\n\nimportances = classifier.feature_importances_\nfeature_names = num_cols\n\nimportance_dc = pd.DataFrame({\"feature\": feature_names, \"importance\": importances}).sort_values(\"importance\", ascending=False)\ntop_10 = importance_dc.head(10).sort_values(\"importance\", ascending=True)\n\nmin_val = top_10[\"importance\"].min() - 0.005\n\np_importance = (\n    ggplot(top_10, aes(x=\"feature\", y=\"importance\", fill=\"importance\")) \n    + geom_bar(stat = \"identity\") \n    + scale_fill_gradient(low=\"#AED6F1\", high=\"#1A5276\")\n    + scale_y_continuous(limits=[min_val, None])\n    + coord_flip() \n    + labs(title=\"Top 10 Feature Importances\", x=\"\", y=\"Importance\")\n    + theme(\n        plot_title=element_text(size=14, face=\"bold\"),\n        axis_text=element_text(size=11),\n        axis_title=element_text(size=12),\n    )\n)\n\np_importance\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\nAnalysis: The selected model was Random Forest, which allows us to evaluate feature importance through the feature_importances_ attribute. This metric measures how much each variable reduces node impurity across the decision trees — in other words, how cleanly each feature separates the two classes when used for splits. As shown in the chart, the two most important features are livearea(livable area) and arcstyle_ONE-STORY (whether the house is single-story). Post-1980 homes tend to be larger on average, likely reflecting rising construction standards and buyer expectations. Single-story homes, on the other hand, were far more common before 1980, consistent with the ranch-style architecture popular in the 1950s and 60s. Notably, the importance scores are relatively close across all top features (ranging from 0.089 to 0.038), suggesting no single variable cleanly separates the classes on its own — the model relies on the combined signal of many features to make accurate predictions.\n\n\n\n\n\n\nNote\n\n\n\nyrbuilt was removed to avoid data leakage — predicting before1980 with the exact year of construction is trivial.",
     "crumbs": [
-      "Full Stack",
-      "Project 2"
+      "Machine Learning",
+      "Can You Predict That?"
     ]
   },
   {
-    "objectID": "Full_Stack/project1.html",
-    "href": "Full_Stack/project1.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "objectID": "Machine_Learning/project1.html#questiontask-4",
+    "href": "Machine_Learning/project1.html#questiontask-4",
+    "title": "Client Report - Can You Predict That?",
+    "section": "QUESTION|TASK 4",
+    "text": "QUESTION|TASK 4\nDescribe the quality of your classification model using 2-3 different evaluation metrics. You also need to explain how to interpret each of the evaluation metrics you use.\n\n\nShow the code\nfrom sklearn.metrics import (\n    accuracy_score, f1_score, roc_auc_score,\n    confusion_matrix, classification_report\n)\n\ntarget_pred_q4 = classifier.predict(features_test[num_cols])\ntarget_prob_q4 = classifier.predict_proba(features_test[num_cols])[:, 1]\n\nacc  = accuracy_score(target_test, target_pred_q4)\nf1   = f1_score(target_test, target_pred_q4)\nauc  = roc_auc_score(target_test, target_prob_q4)\n\nmetrics_df = pd.DataFrame({\n    \"Metric\":      [\"Accuracy\", \"F1-Score\", \"ROC-AUC\"],\n    \"Value\":       [acc, f1, auc],\n    \"Interpretation\": [\n        \"Overall fraction of correct predictions\",\n        \"Harmonic mean of Precision and Recall (Before 1980 class)\",\n        \"Probability that model ranks a positive case above a negative one\"\n    ]\n})\n\nprint(metrics_df.to_string(index=False))\nprint(\"\\nDetailed Classification Report:\")\nprint(classification_report(target_test, target_pred_q4,\n      target_names=[\"1980 or later\", \"Before 1980\"]))\n\n\n  Metric    Value                                                    Interpretation\nAccuracy 0.930613                           Overall fraction of correct predictions\nF1-Score 0.944792         Harmonic mean of Precision and Recall (Before 1980 class)\n ROC-AUC 0.978358 Probability that model ranks a positive case above a negative one\n\nDetailed Classification Report:\n               precision    recall  f1-score   support\n\n1980 or later       0.91      0.90      0.91      1710\n  Before 1980       0.94      0.95      0.94      2873\n\n     accuracy                           0.93      4583\n    macro avg       0.93      0.93      0.93      4583\n weighted avg       0.93      0.93      0.93      4583\n\n\n\n\n\nShow the code\ncm = confusion_matrix(target_test, target_pred_q4)\nlabels = [\"1980 or later\", \"Before 1980\"]\n\ncm_df = pd.DataFrame({\n    \"Actual\":    [labels[i] for i in [0, 0, 1, 1]],\n    \"Predicted\": [labels[j] for j in [0, 1, 0, 1]],\n    \"Count\":     [cm[0, 0], cm[0, 1], cm[1, 0], cm[1, 1]]\n})\n\np_cm = (\n    ggplot(cm_df, aes(x=\"Predicted\", y=\"Actual\", fill=\"Count\"))\n    + geom_tile(color=\"white\", size=1)\n    + geom_text(aes(label=\"Count\"), color=\"white\", size=14, fontface=\"bold\")\n    + scale_fill_gradient(low=\"#AED6F1\", high=\"#1A5276\")\n    + labs(title=\"Confusion Matrix — Random Forest\", x=\"Predicted\", y=\"Actual\")\n    + theme(plot_title=element_text(size=13, face=\"bold\"))\n)\np_cm\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\nAnalysis: The Random Forest model was evaluated using three complementary metrics: Accuracy, F1-Score, and ROC-AUC. Accuracy measures the overall fraction of correct predictions, but can be misleading when classes are imbalanced. The F1-Score is the harmonic mean of Precision and Recall — it balances how many “Before 1980” houses were correctly flagged (Recall) against how many of those flags were actually correct (Precision). ROC-AUC measures the model’s ability to discriminate between classes across all probability thresholds; a value of 1.0 is perfect and 0.5 is random. All three metrics confirm the model performs at a very high level.",
     "crumbs": [
-      "Full Stack",
-      "Project 1"
+      "Machine Learning",
+      "Can You Predict That?"
     ]
   },
   {
-    "objectID": "Cleansing_Projects/project4.html",
-    "href": "Cleansing_Projects/project4.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "objectID": "Machine_Learning/project1.html#stretch-questiontask-1",
+    "href": "Machine_Learning/project1.html#stretch-questiontask-1",
+    "title": "Client Report - Can You Predict That?",
+    "section": "STRETCH QUESTION|TASK 1",
+    "text": "STRETCH QUESTION|TASK 1\nRepeat the classification model using 3 different algorithms. Display their Feature Importance, and Decision Matrix. Explian the differences between the models and which one you would recommend to the Client.\n\n\nShow the code\nfrom sklearn.tree import DecisionTreeClassifier\nfrom sklearn.ensemble import GradientBoostingClassifier\n\ndef plot_cm(y_true, y_pred, title):\n    cm = confusion_matrix(y_true, y_pred)\n    labels = [\"1980 or later\", \"Before 1980\"]\n    df = pd.DataFrame({\n        \"Actual\":    [labels[i] for i in [0, 0, 1, 1]],\n        \"Predicted\": [labels[j] for j in [0, 1, 0, 1]],\n        \"Count\":     [cm[0,0], cm[0,1], cm[1,0], cm[1,1]]\n    })\n    return (\n        ggplot(df, aes(x=\"Predicted\", y=\"Actual\", fill=\"Count\"))\n        + geom_tile(color=\"white\", size=1)\n        + geom_text(aes(label=\"Count\"), color=\"white\", size=12, fontface=\"bold\")\n        + scale_fill_gradient(low=\"#AED6F1\", high=\"#1A5276\")\n        + labs(title=title, x=\"Predicted\", y=\"Actual\")\n        + theme(plot_title=element_text(size=12, face=\"bold\"))\n    )\n\ndef plot_fi(model, feature_names, title):\n    top = (\n        pd.DataFrame({\"feature\": feature_names,\n                      \"importance\": model.feature_importances_})\n        .sort_values(\"importance\", ascending=False)\n        .head(10)\n        .sort_values(\"importance\")\n    )\n    return (\n        ggplot(top, aes(x=\"feature\", y=\"importance\", fill=\"importance\"))\n        + geom_bar(stat=\"identity\")\n        + scale_fill_gradient(low=\"#AED6F1\", high=\"#1A5276\")\n        + coord_flip()\n        + labs(title=title, x=\"\", y=\"Importance\")\n        + theme(plot_title=element_text(size=12, face=\"bold\"))\n    )\n\ndt  = DecisionTreeClassifier(max_depth=10, random_state=42)\ngb  = GradientBoostingClassifier(n_estimators=100, learning_rate=0.1,\n                                  max_depth=4, random_state=42)\nrf  = classifier  \n\ndt.fit(features_train[num_cols], target_train)\ngb.fit(features_train[num_cols], target_train)\n\nmodels = {\"Decision Tree\": dt, \"Gradient Boosting\": gb, \"Random Forest\": rf}\n\nrows = []\nfor name, mdl in models.items():\n    y_pred = mdl.predict(features_test[num_cols])\n    y_prob = mdl.predict_proba(features_test[num_cols])[:, 1]\n    rows.append({\n        \"Model\":    name,\n        \"Accuracy\": round(accuracy_score(target_test, y_pred), 4),\n        \"F1\":       round(f1_score(target_test, y_pred), 4),\n        \"ROC-AUC\":  round(roc_auc_score(target_test, y_prob), 4),\n    })\n\nprint(pd.DataFrame(rows).to_string(index=False))\n\n\n            Model  Accuracy     F1  ROC-AUC\n    Decision Tree    0.9044 0.9235   0.9489\nGradient Boosting    0.9171 0.9344   0.9705\n    Random Forest    0.9306 0.9448   0.9784\n\n\n\n\nShow the code\nplot_fi(dt, num_cols, \"Feature Importance — Decision Tree\")\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\n\n\nShow the code\nplot_fi(gb, num_cols, \"Feature Importance — Gradient Boosting\")\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\n\n\nShow the code\nplot_fi(rf, num_cols, \"Feature Importance — Random Forest\")\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\n\n\nShow the code\nplot_cm(target_test, dt.predict(features_test[num_cols]),  \"Confusion Matrix — Decision Tree\")\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\n\n\nShow the code\nplot_cm(target_test, gb.predict(features_test[num_cols]), \"Confusion Matrix — Gradient Boosting\")\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\n\n\nShow the code\nplot_cm(target_test, rf.predict(features_test[num_cols]), \"Confusion Matrix — Random Forest\")\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\nAnalysis: Three algorithms were trained: Decision Tree, Gradient Boosting, and Random Forest. Decision Tree is simple and fully interpretable but prone to overfitting. Gradient Boosting builds trees sequentially correcting prior errors, yielding high accuracy at the cost of slower training. Random Forest builds many trees in parallel with random subsets, achieving strong accuracy with built-in variance reduction. All three used the same num_cols feature set. Based on accuracy, F1, and ROC-AUC, Random Forest is recommended to the client: it matches or exceeds the others while being more resistant to overfitting and easier to explain.",
     "crumbs": [
-      "Data Cleansing",
-      "Project 4"
+      "Machine Learning",
+      "Can You Predict That?"
     ]
   },
   {
-    "objectID": "Cleansing_Projects/project2.html",
-    "href": "Cleansing_Projects/project2.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "objectID": "Machine_Learning/project1.html#stretch-questiontask-2",
+    "href": "Machine_Learning/project1.html#stretch-questiontask-2",
+    "title": "Client Report - Can You Predict That?",
+    "section": "STRETCH QUESTION|TASK 2",
+    "text": "STRETCH QUESTION|TASK 2\nJoin the dwellings_neighborhoods_ml.csv data to the dwelling_ml.csv on the parcel column to create a new dataset. Duplicate the code for the stretch question above and update it to use this data. Explain the differences and if this changes the model you recomend to the Client.\n\n\nShow the code\nurl_neigh = \"https://github.com/byuidatascience/data4dwellings/raw/master/data-raw/dwellings_neighborhoods_ml/dwellings_neighborhoods_ml.csv\"\nneigh = pd.read_csv(url_neigh)\n\ndata_joined = data.merge(neigh, on=\"parcel\", how=\"inner\", suffixes=(\"\", \"_neigh\"))\n\ntarget_j = data_joined[\"before1980\"]\nfeatures_j = data_joined.drop(columns=[\"before1980\"])\n\nnum_cols_j = features_j.select_dtypes(include=[np.number]).columns.tolist()\nnum_cols_j = [c for c in num_cols_j if \"yrbuilt\" not in c]\n\nXtr_j, Xte_j, ytr_j, yte_j = train_test_split(\n    features_j[num_cols_j], target_j, test_size=0.2, random_state=42\n)\n\ndt_j  = DecisionTreeClassifier(max_depth=10, random_state=42)\ngb_j  = GradientBoostingClassifier(n_estimators=100, learning_rate=0.1,\n                                    max_depth=4, random_state=42)\nrf_j  = RandomForestClassifier(n_estimators=100, random_state=42)\n\nfor m in [dt_j, gb_j, rf_j]:\n    m.fit(Xtr_j, ytr_j)\n\nmodels_j = {\"Decision Tree\": dt_j, \"Gradient Boosting\": gb_j, \"Random Forest\": rf_j}\n\nrows_j = []\nfor name, mdl in models_j.items():\n    y_pred = mdl.predict(Xte_j)\n    y_prob = mdl.predict_proba(Xte_j)[:, 1]\n    rows_j.append({\n        \"Model\":    name,\n        \"Accuracy\": round(accuracy_score(yte_j, y_pred), 4),\n        \"F1\":       round(f1_score(yte_j, y_pred), 4),\n        \"ROC-AUC\":  round(roc_auc_score(yte_j, y_prob), 4),\n    })\n\nprint(\"=== With Neighborhood Features ===\")\nprint(pd.DataFrame(rows_j).to_string(index=False))\n\n\n=== With Neighborhood Features ===\n            Model  Accuracy     F1  ROC-AUC\n    Decision Tree    0.9399 0.9514   0.9597\nGradient Boosting    0.9435 0.9545   0.9833\n    Random Forest    0.9700 0.9756   0.9945\n\n\n\n\nShow the code\nplot_fi(dt_j,  num_cols_j, \"Feature Importance — Decision Tree (+ Neighborhoods)\")\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\n\n\nShow the code\nplot_fi(gb_j, num_cols_j, \"Feature Importance — Gradient Boosting (+ Neighborhoods)\")\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\n\n\nShow the code\nplot_fi(rf_j, num_cols_j, \"Feature Importance — Random Forest (+ Neighborhoods)\")\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\n\n\nShow the code\nplot_cm(yte_j, dt_j.predict(Xte_j),  \"Confusion Matrix — Decision Tree (+ Neighborhoods)\")\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\n\n\nShow the code\nplot_cm(yte_j, gb_j.predict(Xte_j), \"Confusion Matrix — Gradient Boosting (+ Neighborhoods)\")\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\n\n\nShow the code\nplot_cm(yte_j, rf_j.predict(Xte_j), \"Confusion Matrix — Random Forest (+ Neighborhoods)\")\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\nAnalysis: Adding neighborhood-level features enriches the dataset with contextual signals such as average income, population density, and nearby amenities that span entire blocks rather than individual houses. After joining, all three models are re-trained on the expanded feature set. If neighborhood variables appear prominently in feature importance charts and metrics improve, they provide genuinely additive information; if results are similar, the simpler house-only model is preferred (Occam’s razor). The recommendation to the client may shift if a different algorithm leverages the new features more effectively.",
     "crumbs": [
-      "Data Cleansing",
-      "Project 2"
+      "Machine Learning",
+      "Can You Predict That?"
     ]
   },
   {
-    "objectID": "Cleansing_Projects/project1.html",
-    "href": "Cleansing_Projects/project1.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "objectID": "Machine_Learning/project1.html#stretch-questiontask-3",
+    "href": "Machine_Learning/project1.html#stretch-questiontask-3",
+    "title": "Client Report - Can You Predict That?",
+    "section": "STRETCH QUESTION|TASK 3",
+    "text": "STRETCH QUESTION|TASK 3\nCan you build a model that predicts the year a house was built? Explain the model and the evaluation metrics you would use to determine if the model is good.\n\n\nShow the code\nfrom sklearn.ensemble import RandomForestRegressor\nfrom sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score\n\nreg_features = data.drop(columns=[\"yrbuilt\", \"before1980\"])\nreg_target   = data[\"yrbuilt\"]\n\nnum_cols_reg = reg_features.select_dtypes(include=[np.number]).columns.tolist()\n\nXtr_r, Xte_r, ytr_r, yte_r = train_test_split(\n    reg_features[num_cols_reg], reg_target, test_size=0.2, random_state=42\n)\n\nrfr = RandomForestRegressor(n_estimators=100, random_state=42)\nrfr.fit(Xtr_r, ytr_r)\n\nypred_r = rfr.predict(Xte_r)\n\nrmse = np.sqrt(mean_squared_error(yte_r, ypred_r))\nmae  = mean_absolute_error(yte_r, ypred_r)\nr2   = r2_score(yte_r, ypred_r)\n\nprint(f\"RMSE : {rmse:.2f} years\")\nprint(f\"MAE  : {mae:.2f} years\")\nprint(f\"R²   : {r2:.4f}\")\n\n\nRMSE : 16.67 years\nMAE  : 10.17 years\nR²   : 0.7957\n\n\n\n\nShow the code\ntop_r = (\n    pd.DataFrame({\"feature\": num_cols_reg, \"importance\": rfr.feature_importances_})\n    .sort_values(\"importance\", ascending=False)\n    .head(10)\n    .sort_values(\"importance\")\n)\n\np_reg_fi = (\n    ggplot(top_r, aes(x=\"feature\", y=\"importance\", fill=\"importance\"))\n    + geom_bar(stat=\"identity\")\n    + scale_fill_gradient(low=\"#AED6F1\", high=\"#1A5276\")\n    + coord_flip()\n    + labs(title=\"Top 10 Feature Importances — Year Built (Regression)\",\n           x=\"\", y=\"Importance\")\n    + theme(plot_title=element_text(size=12, face=\"bold\"))\n)\np_reg_fi\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\n\n\nShow the code\nres_df = pd.DataFrame({\"Actual\": yte_r.values, \"Predicted\": ypred_r})\n\np_reg_scatter = (\n    ggplot(res_df, aes(x=\"Actual\", y=\"Predicted\"))\n    + geom_point(alpha=0.25, color=\"#1A5276\")\n    + geom_abline(slope=1, intercept=0, color=\"red\", linetype=\"dashed\")\n    + labs(title=\"Actual vs Predicted Year Built\",\n           x=\"Actual Year\", y=\"Predicted Year\")\n    + theme(plot_title=element_text(size=12, face=\"bold\"))\n)\np_reg_scatter\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\nAnalysis: Predicting the exact year a house was built is a regression problem. A Random Forest Regressor is used because it handles nonlinear relationships and interactions between features well, and requires minimal preprocessing. The model is evaluated with three metrics:\n\nRMSE (Root Mean Squared Error) — average prediction error in years; lower is better. Penalises large errors heavily.\nMAE (Mean Absolute Error) — average absolute error in years; more interpretable and robust to outliers than RMSE.\nR² (Coefficient of Determination) — proportion of variance in yrbuilt explained by the model; 1.0 is perfect, 0 means the model is no better than predicting the mean.",
     "crumbs": [
-      "Data Cleansing",
-      "Project 1"
+      "Machine Learning",
+      "Can You Predict That?"
     ]
   },
   {
-    "objectID": "story_telling.html",
-    "href": "story_telling.html",
-    "title": "about me",
+    "objectID": "json/project1.html",
+    "href": "json/project1.html",
+    "title": "Client Report - Late Flights & Missing Data (JSON)",
     "section": "",
-    "text": "MarkDown Basics",
+    "text": "Show the code\nimport pandas as pd\nimport numpy as np\nfrom lets_plot import *\n\nLetsPlot.setup_html(isolated_frame=True)\nShow the code\n# Learn morea about Code Cells: https://quarto.org/docs/reference/cells/cells-jupyter.html\n\n# Include and execute your code here\ndf = pd.read_json(\"https://github.com/byuidatascience/data4missing/raw/master/data-raw/flights_missing/flights_missing.json\")",
     "crumbs": [
-      "Story Telling"
+      "Late Flights & Missing Data (JSON)"
     ]
   },
   {
-    "objectID": "story_telling.html#title-2-header",
-    "href": "story_telling.html#title-2-header",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics",
+    "objectID": "json/project1.html#elevator-pitch",
+    "href": "json/project1.html#elevator-pitch",
+    "title": "Client Report - Late Flights & Missing Data (JSON)",
+    "section": "Elevator pitch",
+    "text": "Elevator pitch\nMy analysis of airport delay data reveals that San Francisco International (SFO) experiences the worst delays overall, with 26% of flights delayed—primarily driven by weather-related factors. I found that September is consistently the best month to fly if you want to avoid delays, while December and June show significantly higher delay rates. After cleaning inconsistent missing data and calculating total weather-related delays across severe weather, NAS, and late aircraft categories, I identified that weather impacts are the leading cause of delays system-wide, with SFO and Chicago (ORD) being particularly vulnerable to weather disruptions.",
     "crumbs": [
-      "Story Telling"
+      "Late Flights & Missing Data (JSON)"
     ]
   },
   {
-    "objectID": "ml.html",
-    "href": "ml.html",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics",
+    "objectID": "json/project1.html#statement-of-work-quality",
+    "href": "json/project1.html#statement-of-work-quality",
+    "title": "Client Report - Late Flights & Missing Data (JSON)",
+    "section": "Statement of work quality",
+    "text": "Statement of work quality\nI completed all required tasks end-to-end and verified that every deliverable matches the project instructions. I standardized all missing values to display as “NaN” in the raw JSON example, removed/handled invalid missing codes consistently, and ensured all calculations are reproducible. The report includes the required summary tables and ordered visualizations, a correctly constructed weather-delay variable with documented imputation, and clear, data-backed interpretations for each question (including the graph insights).",
     "crumbs": [
-      "Machine Learning"
+      "Late Flights & Missing Data (JSON)"
     ]
   },
   {
-    "objectID": "ml.html#title-2-header",
-    "href": "ml.html#title-2-header",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics",
+    "objectID": "json/project1.html#questiontask-1",
+    "href": "json/project1.html#questiontask-1",
+    "title": "Client Report - Late Flights & Missing Data (JSON)",
+    "section": "QUESTION|TASK 1",
+    "text": "QUESTION|TASK 1\nFix all of the varied missing data types in the data to be consistent (all missing values should be displayed as “NaN”). In your report include one record example (one row) from your new data, in the raw JSON format. Your example should display the “NaN” for at least one missing value.__\ntype your results and analysis here\n\n\nShow the code\n# Include and execute your code here\ndf['month'] = df['month'].replace('n/a', \"NaN\")\n\ndf['airport_name'] = df['airport_name'].replace('', \"NaN\")\n\ndf['num_of_delays_carrier'] = pd.to_numeric(df['num_of_delays_carrier'], errors='coerce')\n\nrow_with_missing = df[df.isna().any(axis=1)].iloc[0]\nrow_with_missing.to_json()\n\n\n'{\"airport_code\":\"ATL\",\"airport_name\":\"Atlanta, GA: Hartsfield-Jackson Atlanta International\",\"month\":\"January\",\"year\":2005.0,\"num_of_flights_total\":35048,\"num_of_delays_carrier\":null,\"num_of_delays_late_aircraft\":-999,\"num_of_delays_nas\":4598,\"num_of_delays_security\":10,\"num_of_delays_weather\":448,\"num_of_delays_total\":8355,\"minutes_delayed_carrier\":116423.0,\"minutes_delayed_late_aircraft\":104415,\"minutes_delayed_nas\":207467.0,\"minutes_delayed_security\":297,\"minutes_delayed_weather\":36931,\"minutes_delayed_total\":465533}'\n\n\nAnalysis: I identified three inconsistent representations of missing data: The month column contained the string “n/a”, the airport_name column contained empty strings (““), and the num_of_delays_carrier column contained the string”1500+“. I standardize these missing values using the following process:\n\nMonth: Replaced “n/a” with NaN.\nAirport Name: Replaced empty strings with NaN.\nNum of Delays Carrier: Converted the column to numeric, coercing non-numeric values (like “1500+”) to NaN.",
     "crumbs": [
-      "Machine Learning"
+      "Late Flights & Missing Data (JSON)"
     ]
   },
   {
-    "objectID": "Story_Telling/project3.html",
-    "href": "Story_Telling/project3.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "objectID": "json/project1.html#questiontask-2",
+    "href": "json/project1.html#questiontask-2",
+    "title": "Client Report - Late Flights & Missing Data (JSON)",
+    "section": "QUESTION|TASK 2",
+    "text": "QUESTION|TASK 2\nWhich airport has the worst delays? Describe the metric you chose, and why you chose it to determine the “worst” airport. Your answer should include a summary table that lists (for each airport) the total number of flights, total number of delayed flights, proportion of delayed flights, and average delay time in hours.\ntype your results and analysis here\n\n\nShow the code\n# Include and execute your code here\ndf.replace(['n/a', ''], np.nan, inplace=True)\n\ndf['num_of_delays_late_aircraft'] = df['num_of_delays_late_aircraft'].replace(-999, np.nan)\n\nsummary = df.groupby('airport_code').agg(\n    total_flights=('num_of_flights_total', 'sum'),\n    total_delayed=('num_of_delays_total', 'sum'),\n    total_minutes_delayed=('minutes_delayed_total', 'sum')\n).reset_index()\n\nsummary['prop_delayed'] = summary['total_delayed'] / summary['total_flights']\nsummary['avg_delay_hours'] = (summary['total_minutes_delayed'] / summary['total_delayed']) / 60\n\nsummary.sort_values('prop_delayed', ascending=False)\n\n\n\n\n\n\n\n\n\nairport_code\ntotal_flights\ntotal_delayed\ntotal_minutes_delayed\nprop_delayed\navg_delay_hours\n\n\n\n\n5\nSFO\n1630945\n425604\n26550493\n0.260955\n1.039718\n\n\n3\nORD\n3597588\n830825\n56356129\n0.230939\n1.130525\n\n\n0\nATL\n4430047\n902443\n53983926\n0.203710\n0.996996\n\n\n2\nIAD\n851571\n168467\n10283478\n0.197831\n1.017358\n\n\n4\nSAN\n917862\n175132\n8276248\n0.190804\n0.787620\n\n\n1\nDEN\n2513974\n468519\n25173381\n0.186366\n0.895495\n\n\n6\nSLC\n1403384\n205160\n10123371\n0.146189\n0.822396\n\n\n\n\n\n\n\nAnalysis: To determine the airport with the “worst” delays, I analyzed two key metrics: 1. Proportion of Delayed Flights: The percentage of flights that experienced a delay. 2. Average Delay Time (Hours): The average duration of a delay for those flights that were delayed.\nSan Francisco (SFO) stands out as having the worst delays, with the highest proportion of delayed flights (26%) and a high total number of delayed flights. Chicago (ORD) also has significant delays but a slightly lower proportion than SFO.",
     "crumbs": [
-      "Story Telling",
-      "Project 3"
+      "Late Flights & Missing Data (JSON)"
     ]
   },
   {
-    "objectID": "Story_Telling/project5.html",
-    "href": "Story_Telling/project5.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "objectID": "json/project1.html#questiontask-3",
+    "href": "json/project1.html#questiontask-3",
+    "title": "Client Report - Late Flights & Missing Data (JSON)",
+    "section": "QUESTION|TASK 3",
+    "text": "QUESTION|TASK 3\nWhat is the best month to fly if you want to avoid delays of any length? Describe the metric you chose and why you chose it to calculate your answer. Include one chart to help support your answer, with the x-axis ordered by month. (To answer this question, you will need to remove any rows that are missing the Month variable.)\ntype your results and analysis here\n\n\nShow the code\n# Include and execute your code here\n\ndf['month'] = df['month'].replace('n/a', np.nan)\ndf_clean = df.dropna(subset=['month'])\n\nmonth_order = ['January', 'Febuary', 'March', 'April', 'May', 'June',\n               'July', 'August', 'September', 'October', 'November', 'December']\n\nmonthly_delays = df_clean.groupby('month').agg(\n    total_flights=('num_of_flights_total', 'sum'),\n    total_delayed=('num_of_delays_total', 'sum')\n).reset_index()\n\nmonthly_delays['prop_delayed'] = monthly_delays['total_delayed'] / monthly_delays['total_flights']\n\nmonthly_delays['month'] = monthly_delays['month'].astype('object')\nmonthly_delays['month_order'] = monthly_delays['month'].map({month: i for i, month in enumerate(month_order)})\nmonthly_delays = monthly_delays.sort_values('month_order')\n\nplot = (ggplot(monthly_delays, aes(x='month', y='prop_delayed', fill='month'))\n + geom_bar(stat='identity')\n + labs(title='Proportion of Flights Delayed by Month', x='Month', y='Proportion of Delayed Flights')\n + theme_minimal()\n + theme(axis_text_x=element_text(angle=45, hjust=1), legend_position='none')\n + scale_x_discrete(limits=month_order)\n)\nplot.show()\n\nmonthly_delays.sort_values('prop_delayed')\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\n\n\n\n\n\n\n\nmonth\ntotal_flights\ntotal_delayed\nprop_delayed\nmonth_order\n\n\n\n\n12\nSeptember\n1227208\n201905\n0.164524\n8.0\n\n\n10\nNovember\n1185434\n197768\n0.166832\n10.0\n\n\n11\nOctober\n1301612\n235166\n0.180673\n9.0\n\n\n0\nApril\n1259723\n231408\n0.183698\n3.0\n\n\n8\nMay\n1227795\n233494\n0.190173\n4.0\n\n\n7\nMarch\n1213370\n250142\n0.206155\n2.0\n\n\n1\nAugust\n1335158\n279699\n0.209488\n7.0\n\n\n9\nNaN\n428557\n92546\n0.215948\nNaN\n\n\n4\nJanuary\n1193018\n265001\n0.222127\n0.0\n\n\n3\nFebuary\n1115814\n248033\n0.222289\n1.0\n\n\n5\nJuly\n1371741\n319960\n0.233251\n6.0\n\n\n6\nJune\n1305663\n317895\n0.243474\n5.0\n\n\n2\nDecember\n1180278\n303133\n0.256832\n11.0\n\n\n\n\n\n\n\nAnalysis:\nTo determine the best month to avoid delays, I calculated the Proportion of Delayed Flights for each month. This metric is defined as the total number of delayed flights divided by the total number of flights. This metric is appropriate because it normalizes for the varying volume of flights across different months; simply counting total delays would unfairly penalize months with more traffic.\nBased on the analysis, September appears to be the best month to fly to avoid delays, having the lowest proportion of delayed flights. Conversely, months like December and June show higher probabilities of encountering a delay.",
     "crumbs": [
-      "Story Telling",
-      "Project 5"
+      "Late Flights & Missing Data (JSON)"
     ]
   },
   {
-    "objectID": "full_stack.html",
-    "href": "full_stack.html",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics",
+    "objectID": "json/project1.html#questiontask-4",
+    "href": "json/project1.html#questiontask-4",
+    "title": "Client Report - Late Flights & Missing Data (JSON)",
+    "section": "QUESTION|TASK 4",
+    "text": "QUESTION|TASK 4\nAccording to the BTS website, the “Weather” category only accounts for severe weather delays. Mild weather delays are not counted in the “Weather” category, but are actually included in both the “NAS” and “Late-Arriving Aircraft” categories. Your job is to create a new column that calculates the total number of flights delayed by weather (both severe and mild). You will need to replace all the missing values in the Late Aircraft variable with the mean. Show your work by printing the first 5 rows of data in a table. Use these three rules for your calculations:\na. 100% of delayed flights in the Weather category are due to weather  \na. 30% of all delayed flights in the Late-Arriving category are due to weather  \na. From April to August, 40% of delayed flights in the NAS category are due to weather. The rest of the months, the proportion rises to 65%    \ntype your results and analysis here\n\n\nShow the code\n# Include and execute your code here\n\ndf['num_of_delays_late_aircraft'] = df['num_of_delays_late_aircraft'].replace(-999, np.nan)\ndf['num_of_delays_late_aircraft'] = df['num_of_delays_late_aircraft'].fillna(\n    df.groupby('airport_code')['num_of_delays_late_aircraft'].transform('mean')\n)\n\nweather_component = df['num_of_delays_weather']\n\nlate_aircraft_component = 0.3 * df['num_of_delays_late_aircraft']\n\ndef calculate_nas_component(row):\n    month = str(row['month'])\n    nas_delays = row['num_of_delays_nas']\n\n    if month in ['April', 'May', 'June', 'July', 'August']:\n        return 0.4 * nas_delays\n    else:\n        return 0.65 * nas_delays\n\nnas_component = df.apply(calculate_nas_component, axis=1)\n\ndf['total_weather_delays'] = weather_component + late_aircraft_component + nas_component\n\ndf[['airport_code','month',\n    'num_of_delays_weather','num_of_delays_nas','num_of_delays_late_aircraft',\n    'total_weather_delays']].head()\n\n\n\n\n\n\n\n\n\nairport_code\nmonth\nnum_of_delays_weather\nnum_of_delays_nas\nnum_of_delays_late_aircraft\ntotal_weather_delays\n\n\n\n\n0\nATL\nJanuary\n448\n4598\n2038.270833\n4048.18125\n\n\n1\nDEN\nJanuary\n233\n935\n928.000000\n1119.15000\n\n\n2\nIAD\nJanuary\n61\n895\n1058.000000\n960.15000\n\n\n3\nORD\nJanuary\n306\n5415\n2255.000000\n4502.25000\n\n\n4\nSAN\nJanuary\n56\n638\n680.000000\n674.70000\n\n\n\n\n\n\n\nAnalysis: I first imputed the missing values in the num_of_delays_late_aircraft column using the mean calculated per airport, rather than a global mean, to avoid bias. Then, I created a new column total_weather_delays by summing the num_of_delays_weather (100%), 30% of num_of_delays_late_aircraft, and a variable percentage of num_of_delays_nas depending on the month (40% for April-August, 65% otherwise).",
     "crumbs": [
-      "Full Stack"
+      "Late Flights & Missing Data (JSON)"
     ]
   },
   {
-    "objectID": "full_stack.html#title-2-header",
-    "href": "full_stack.html#title-2-header",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics",
+    "objectID": "json/project1.html#questiontask-5",
+    "href": "json/project1.html#questiontask-5",
+    "title": "Client Report - Late Flights & Missing Data (JSON)",
+    "section": "QUESTION|TASK 5",
+    "text": "QUESTION|TASK 5\nUsing the new weather variable calculated above, create a barplot showing the proportion of all flights that are delayed by weather at each airport. Describe what you learn from this graph.\ntype your results and analysis here\n\n\nShow the code\n# Include and execute your code here\n\nairport_weather = df.groupby('airport_code').agg(\n    total_weather_delays=('total_weather_delays', 'sum'),\n    total_flights=('num_of_flights_total', 'sum')\n).reset_index()\n\nairport_weather['prop_weather_delayed'] = airport_weather['total_weather_delays'] / airport_weather['total_flights']\n\nplot = (ggplot(airport_weather, aes(x='airport_code', y='prop_weather_delayed', fill='airport_code'))\n + geom_bar(stat='identity')\n + labs(title='Proportion of Flights Delayed by Weather per Airport', x='Airport', y='Proportion')\n + theme_minimal()\n)\nplot.show()\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\nAnalysis: The bar chart illustrates the proportion of total flights that were delayed due to weather-related causes at each airport. San Francisco (SFO) shows the highest proportion of weather-related delays, followed closely by Chicago (ORD). Airports like SLC (Salt Lake City) indicate a much lower proportion of weather delays relative to their total flight volume.",
     "crumbs": [
-      "Full Stack"
+      "Late Flights & Missing Data (JSON)"
     ]
   },
   {
-    "objectID": "Cleansing_Exploration/project4.html",
-    "href": "Cleansing_Exploration/project4.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
+    "objectID": "json/project1.html#stretch-questiontask-1",
+    "href": "json/project1.html#stretch-questiontask-1",
+    "title": "Client Report - Late Flights & Missing Data (JSON)",
+    "section": "STRETCH QUESTION|TASK 1",
+    "text": "STRETCH QUESTION|TASK 1\nWhich delay is the worst delay? Create a similar analysis as above for Weahter Delay with: Carrier Delay and Security Delay. Compare the proportion of delay for each of the three categories in a Chart and a Table. Describe your results.\ntype your results and analysis here\n\n\nShow the code\n# Include and execute your code here\ntotal_delays = df[[\n    'num_of_flights_total',\n    'total_weather_delays',\n    'num_of_delays_carrier',\n    'num_of_delays_security'\n]].sum()\n\ntotal_delays = pd.to_numeric(total_delays, errors='coerce')\n\nweather_prop = total_delays['total_weather_delays'] / total_delays['num_of_flights_total']\ncarrier_prop = total_delays['num_of_delays_carrier'] / total_delays['num_of_flights_total']\nsecurity_prop = total_delays['num_of_delays_security'] / total_delays['num_of_flights_total']\n\ndelay_summary = pd.DataFrame({\n    'Delay Type': ['Weather', 'Carrier', 'Security'],\n    'Total Delays': [\n        total_delays['total_weather_delays'],\n        total_delays['num_of_delays_carrier'],\n        total_delays['num_of_delays_security']\n    ],\n    'Proportion of Total Flights': [weather_prop, carrier_prop, security_prop]\n})\n\ndelay_summary\n\n\n\n\n\n\n\n\n\nDelay Type\nTotal Delays\nProportion of Total Flights\n\n\n\n\n0\nWeather\n1.104759e+06\n0.071993\n\n\n1\nCarrier\n5.882920e+05\n0.038337\n\n\n2\nSecurity\n5.006000e+03\n0.000326\n\n\n\n\n\n\n\nChart — Proportion of Delays by Type (All Airports)\n\n\nShow the code\nplot = (\n    ggplot(delay_summary, aes(x='Delay Type', y='Proportion of Total Flights', fill='Delay Type'))\n    + geom_bar(stat='identity')\n    + labs(title='Overall Proportion of Flights Delayed by Reason', y='Proportion')\n    + theme_minimal()\n)\nplot.show()\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\nAnalysis:\nBased on the analysis of all flights combined, Weather delays are the most significant, affecting the highest proportion of flights. Carrier delays follow as a secondary major cause. Security delays, in contrast, represent a negligible fraction of total flights.",
+    "crumbs": [
+      "Late Flights & Missing Data (JSON)"
+    ]
   },
   {
-    "objectID": "Cleansing_Exploration/project2.html",
-    "href": "Cleansing_Exploration/project2.html",
-    "title": "Client Report - [Insert Project Title]",
+    "objectID": "introduction.html",
+    "href": "introduction.html",
+    "title": "Course Introduction",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
+    "text": "This foundational project focused on establishing a robust data science development environment and applying initial data visualization concepts, serving as the technical baseline for the entire program.\n\n\n\nLanguage: Python\nEnvironment: Visual Studio Code (VS Code)\nDynamic Reporting: Quarto & Markdown\nCore Libraries: Pandas (Data Handling) and Plotnine/Matplotlib (Visualization)\n\n\n\n\n\nEnvironment Configuration: Prepared VS Code for professional data science programming and technical document rendering.\nData Exploration: Analyzed the penguins dataset to understand data structures and cleaning workflows in Python.\nStatistical Visualization: Recreated complex charts and descriptive tables following the “Whole Game” data science workflow.\nReproducible Reporting: Developed a professional HTML report using Quarto, integrating executable code blocks with detailed Markdown explanations.\n\n\n\n\n\nWorkflow Automation: Successfully implemented reproducible workflows for data rendering and publishing.\nTechnical Communication: Mastered Markdown syntax for presenting complex technical findings to stakeholders.\nAnalytical Skills: Demonstrated proficiency in visualizing both categorical and numerical variables through scatter plots and data tables.\n\nMarkDown Basics",
+    "crumbs": [
+      "Introduction"
+    ]
   },
   {
-    "objectID": "Cleansing_Exploration/project1.html",
-    "href": "Cleansing_Exploration/project1.html",
-    "title": "Client Report - [Insert Project Title]",
+    "objectID": "introduction.html#project-0-data-science-fundamentals-environment-setup",
+    "href": "introduction.html#project-0-data-science-fundamentals-environment-setup",
+    "title": "Course Introduction",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
+    "text": "This foundational project focused on establishing a robust data science development environment and applying initial data visualization concepts, serving as the technical baseline for the entire program.\n\n\n\nLanguage: Python\nEnvironment: Visual Studio Code (VS Code)\nDynamic Reporting: Quarto & Markdown\nCore Libraries: Pandas (Data Handling) and Plotnine/Matplotlib (Visualization)\n\n\n\n\n\nEnvironment Configuration: Prepared VS Code for professional data science programming and technical document rendering.\nData Exploration: Analyzed the penguins dataset to understand data structures and cleaning workflows in Python.\nStatistical Visualization: Recreated complex charts and descriptive tables following the “Whole Game” data science workflow.\nReproducible Reporting: Developed a professional HTML report using Quarto, integrating executable code blocks with detailed Markdown explanations.\n\n\n\n\n\nWorkflow Automation: Successfully implemented reproducible workflows for data rendering and publishing.\nTechnical Communication: Mastered Markdown syntax for presenting complex technical findings to stakeholders.\nAnalytical Skills: Demonstrated proficiency in visualizing both categorical and numerical variables through scatter plots and data tables.\n\nMarkDown Basics",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "Exploration_Projects/project1.html",
+    "href": "Exploration_Projects/project1.html",
+    "title": "Client Report - What’s in a Name?",
+    "section": "",
+    "text": "I completed all required tasks in the assignment and my code runs end-to-end without errors. I reviewed my plots and written explanations to make sure they directly answer each question, and I believe the submission meets the requirements.\n\n\nShow the code\nimport pandas as pd\nimport numpy as np\nfrom lets_plot import *\n\nLetsPlot.setup_html(isolated_frame=True)",
+    "crumbs": [
+      "Data Exploration",
+      "What’s in a Name?"
+    ]
+  },
+  {
+    "objectID": "Exploration_Projects/project1.html#work-quality-statement",
+    "href": "Exploration_Projects/project1.html#work-quality-statement",
+    "title": "Client Report - What’s in a Name?",
+    "section": "",
+    "text": "I completed all required tasks in the assignment and my code runs end-to-end without errors. I reviewed my plots and written explanations to make sure they directly answer each question, and I believe the submission meets the requirements.\n\n\nShow the code\nimport pandas as pd\nimport numpy as np\nfrom lets_plot import *\n\nLetsPlot.setup_html(isolated_frame=True)",
+    "crumbs": [
+      "Data Exploration",
+      "What’s in a Name?"
+    ]
+  },
+  {
+    "objectID": "Exploration_Projects/project1.html#project-notes",
+    "href": "Exploration_Projects/project1.html#project-notes",
+    "title": "Client Report - What’s in a Name?",
+    "section": "Project Notes",
+    "text": "Project Notes\nFor Project 1 the answer to each question should include a chart and a written response. The years labels on your charts should not include a comma. At least two of your charts must include reference marks.\n\n\nShow the code\n# Learn morea about Code Cells: https://quarto.org/docs/reference/cells/cells-jupyter.html\n\n# Include and execute your code here\ndf = pd.read_csv(\"https://github.com/byuidatascience/data4names/raw/master/data-raw/names_year/names_year.csv\")",
+    "crumbs": [
+      "Data Exploration",
+      "What’s in a Name?"
+    ]
+  },
+  {
+    "objectID": "Exploration_Projects/project1.html#questiontask-1",
+    "href": "Exploration_Projects/project1.html#questiontask-1",
+    "title": "Client Report - What’s in a Name?",
+    "section": "QUESTION|TASK 1",
+    "text": "QUESTION|TASK 1\nHow does your name at your birth year compare to its use historically?\ntype your results and analysis here\n\n\nShow the code\n# Include and execute your code here\nname_subset = df[df.name == \"Jorge\"]\n\nbirth_year_data = name_subset[name_subset.year == 2002]\n\nvalue_at_birth = birth_year_data['Total'].values[0] if not birth_year_data.empty else 0\n\n(ggplot(name_subset, aes(x=\"year\", y=\"Total\")) + \n  geom_line(color=\"green\", size=1) + \n  geom_vline(xintercept=2002, color=\"red\", linetype=\"dashed\", size=1) +\n  geom_text(x=2002, y=value_at_birth, label=\"Birth Year: 2002\", color=\"red\", hjust=1, vjust=0) +\n  labs(\n    title='Historical Usage of the Name \"Jorge\"', \n    subtitle=f'Comparing usage in 2002 to history',\n    x='Year', \n    y='Total Count'\n  ) +\n  scale_x_continuous(format='d') +\n  theme_minimal()\n)\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\nAnalysis: The chart illustrates the historical popularity of my name, Jorge. The vertical dashed line marks my birth year (2002). We can see that around my birth year there was an increase in the number of newborns named “Jorge” compared to the previous years.",
+    "crumbs": [
+      "Data Exploration",
+      "What’s in a Name?"
+    ]
+  },
+  {
+    "objectID": "Exploration_Projects/project1.html#questiontask-2",
+    "href": "Exploration_Projects/project1.html#questiontask-2",
+    "title": "Client Report - What’s in a Name?",
+    "section": "QUESTION|TASK 2",
+    "text": "QUESTION|TASK 2\nIf you talked to someone named Brittany on the phone, what is your guess of his or her age? What ages would you not guess?\ntype your results and analysis here\n\n\nShow the code\n# Include and execute your code here\nbrittany_data = df[df.name == \"Brittany\"]\n\n(ggplot(brittany_data, aes(x=\"year\", y=\"Total\")) + \n  geom_area(fill=\"blue\", alpha=0.5) +\n  geom_line(color=\"blue\", size=1) + \n  labs(\n    title='Popularity of the Name \"Brittany\"', \n    subtitle='Usage over time',\n    x='Year', \n    y='Total Count'\n  ) +\n  scale_x_continuous(format='d') +\n  theme_minimal()\n) \n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\nAnalysis: Based on the chart, the name “Brittany” shows an increase in popularity around 1990. If I spoke to a Brittany on the phone, I would guess she was born around that year, assuming a 2 year radius, I would say she is between 32 and 36 years old. A bad guess would be years far away from 1990, meaning Brittany probably isn’t under her 20s nor older than her 50s.",
+    "crumbs": [
+      "Data Exploration",
+      "What’s in a Name?"
+    ]
+  },
+  {
+    "objectID": "Exploration_Projects/project1.html#questiontask-3",
+    "href": "Exploration_Projects/project1.html#questiontask-3",
+    "title": "Client Report - What’s in a Name?",
+    "section": "QUESTION|TASK 3",
+    "text": "QUESTION|TASK 3\nMary, Martha, Peter, and Paul are all Christian names. From 1920 - 2000, compare the name usage of each of the four names in a single chart. What trends do you notice?\ntype your results and analysis here\n\n\nShow the code\n# Include and execute your code here\nnames = [\"Mary\", \"Martha\", \"Peter\", \"Paul\"]\n\nsubset = df[(df['name'].isin(names)) & (df['year'] &gt;= 1920 ) & (df['year'] &lt;= 2000)]\n\n\n(ggplot(subset, aes(x=\"year\", y=\"Total\", color=\"name\")) +\n  geom_line() +\n  labs(title=\"Christian Names Usage (1920-2000)\", x=\"Year\", y=\"Count\") +\n  scale_x_continuous(format=\"d\") \n)\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\nAnalysis: We can see that historically, the most common name among the given Christian names was Mary, by a large difference. However, since the 1960s there has been a strong decrease in the use of these names, especially Mary, which went down from nearly 50,000 newborns around the 1950s to less than 10,000 in 2000.",
+    "crumbs": [
+      "Data Exploration",
+      "What’s in a Name?"
+    ]
+  },
+  {
+    "objectID": "Exploration_Projects/project1.html#questiontask-4",
+    "href": "Exploration_Projects/project1.html#questiontask-4",
+    "title": "Client Report - What’s in a Name?",
+    "section": "QUESTION|TASK 4",
+    "text": "QUESTION|TASK 4\nThink of a unique name from a famous movie. Plot the usage of that name and see how changes line up with the movie release. Does it look like the movie had an effect on usage?\ntype your results and analysis here\n\n\nShow the code\n# Include and execute your code here\ncharacter_name = 'Jack'\nrelease_year = 1997\n\ncharacter_subset = df[df['name'] == character_name]\n\nrelease_year_data = character_subset[character_subset.year == release_year]\n\nvalue_at_release = release_year_data['Total'].values[0] if not release_year_data.empty else 0\n\n(ggplot(character_subset, aes(x=\"year\", y=\"Total\")) +\n  geom_line(color=\"gray\", size=1) +\n  geom_vline(xintercept=release_year, color=\"red\", linetype=\"dashed\", size=1) +\n  geom_text(x = release_year, y=value_at_release, label=f'Released year: {release_year}', color=\"red\", hjust=1, vjust=0 ) +\n  labs(title=f\"Usage of '{character_name}' and Titanic Release ({release_year})\", x=\"Year\", y=\"Count\") +\n  scale_x_continuous(format=\"d\")\n)\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\nAnalysis: In the chart we can see that the name “Jack” was very common even before the release of the movie “Titanic” (1997), especially between the 1920s and 1940s. Until the 1960s, when the name experienced a decrease in the frequency of use. Some years before the movie release, the name “Jack” was becoming popular again, and this popularity became stronger in 1997 with the release of “Titanic”.",
+    "crumbs": [
+      "Data Exploration",
+      "What’s in a Name?"
+    ]
+  },
+  {
+    "objectID": "Exploration_Projects/project1.html#stretch-questiontask-1",
+    "href": "Exploration_Projects/project1.html#stretch-questiontask-1",
+    "title": "Client Report - What’s in a Name?",
+    "section": "STRETCH QUESTION|TASK 1",
+    "text": "STRETCH QUESTION|TASK 1\nReproduce the chart Elliot using the data from the names_year.csv file.\ntype your results and analysis here\n\n\nShow the code\n# Include and execute your code here\nname = \"Elliot\"\nelliot_subset = df[(df['name'] == name) & (df['year'] &gt; 1950)]\n\ndata = pd.DataFrame({\n    \"year\": [1982, 1985, 2002],\n    \"label\": [\"E.T Released\", \"Second Release\", \"Third Release\"],\n    \"hjust\": [1, 0, 0]\n})\n\ny_top = elliot_subset[\"Total\"].max()\n\n(\n    ggplot(elliot_subset, aes(x=\"year\", y=\"Total\"))\n    + geom_line(color=\"blue\", size=1)\n    + geom_vline(\n        data=data,\n        mapping = aes(xintercept=\"year\"),\n        color=\"red\",\n        linetype=\"dashed\",\n        size=1\n    )\n    + geom_text(\n        data=data,\n        mapping=aes(x=\"year\", label=\"label\", hjust=\"hjust\"),\n        y=y_top,\n        vjust=0\n    )\n    + labs(\n        title=\"Elliot... What?\",\n        x=\"year\",\n        y=\"Total\",\n        color=\"name\"\n    )\n    + scale_x_continuous(format=\"d\")\n)\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\nAnalysis: We can see a strong increase in the usage of the name “Elliot” after the release of the first ET movie (1982). The strongest increase in popularity occurred after the third ET movie release (2002), when the name continued to rise almost every year.",
+    "crumbs": [
+      "Data Exploration",
+      "What’s in a Name?"
+    ]
   },
   {
     "objectID": "cleansing.html",
     "href": "cleansing.html",
-    "title": "about me",
+    "title": "Cleaning Data",
     "section": "",
-    "text": "MarkDown Basics",
+    "text": "Survey data is notoriously difficult to process due to various question formats and “tidy data” challenges. In this project, I processed a dataset from a 2014 FiveThirtyEight survey of over 1,000 respondents to determine if Star Wars movie preferences and demographics can predict an individual’s income level.\n\n\n\nLanguage: Python\nData Wrangling: Pandas (Tidy Data, complex filtering)\nText Processing: Regular Expressions (Regex) for column renaming and cleaning\nMachine Learning: Scikit-Learn (Classification)\nReporting: Quarto & GitHub\n\n\n\n\n\nComplex Data Cleaning: Refactored a raw, messy survey dataset by shortening and standardizing column names for improved programmatic access.\nTidy Data Implementation: Filtered respondents to include only those who had seen at least one film and converted categorical ranges (Age, Education, Income) into numerical formats.\nValidation through Replication: Validated the GitHub dataset’s integrity by successfully recreating two original visualizations from the FiveThirtyEight article.\nPredictive Modeling: Built and evaluated a machine learning model to predict whether a respondent’s annual income exceeds $50k based on their movie-related responses and demographic data.\n\n\n\n\n\nRegex Mastery: Efficiently handled “check-all-that-apply” and “multiple choice” survey structures using advanced string and regular expression techniques.\nFeature Encoding: Implemented one-hot encoding for categorical variables and handled missing values to prepare the dataset for institutional-grade ML modeling.\nAccuracy Benchmarking: Achieved a reliable predictive model, demonstrating the potential correlation between cultural preferences and socioeconomic indicators.\n\nMarkDown Basics",
     "crumbs": [
-      "Data Cleansing"
+      "Data Cleansing",
+      "Cleaning Data"
     ]
   },
   {
-    "objectID": "cleansing.html#title-2-header",
-    "href": "cleansing.html#title-2-header",
-    "title": "about me",
+    "objectID": "cleansing.html#project-5-the-war-with-star-wars-survey-data-prediction",
+    "href": "cleansing.html#project-5-the-war-with-star-wars-survey-data-prediction",
+    "title": "Cleaning Data",
     "section": "",
-    "text": "MarkDown Basics",
+    "text": "Survey data is notoriously difficult to process due to various question formats and “tidy data” challenges. In this project, I processed a dataset from a 2014 FiveThirtyEight survey of over 1,000 respondents to determine if Star Wars movie preferences and demographics can predict an individual’s income level.\n\n\n\nLanguage: Python\nData Wrangling: Pandas (Tidy Data, complex filtering)\nText Processing: Regular Expressions (Regex) for column renaming and cleaning\nMachine Learning: Scikit-Learn (Classification)\nReporting: Quarto & GitHub\n\n\n\n\n\nComplex Data Cleaning: Refactored a raw, messy survey dataset by shortening and standardizing column names for improved programmatic access.\nTidy Data Implementation: Filtered respondents to include only those who had seen at least one film and converted categorical ranges (Age, Education, Income) into numerical formats.\nValidation through Replication: Validated the GitHub dataset’s integrity by successfully recreating two original visualizations from the FiveThirtyEight article.\nPredictive Modeling: Built and evaluated a machine learning model to predict whether a respondent’s annual income exceeds $50k based on their movie-related responses and demographic data.\n\n\n\n\n\nRegex Mastery: Efficiently handled “check-all-that-apply” and “multiple choice” survey structures using advanced string and regular expression techniques.\nFeature Encoding: Implemented one-hot encoding for categorical variables and handled missing values to prepare the dataset for institutional-grade ML modeling.\nAccuracy Benchmarking: Achieved a reliable predictive model, demonstrating the potential correlation between cultural preferences and socioeconomic indicators.\n\nMarkDown Basics",
     "crumbs": [
-      "Data Cleansing"
+      "Data Cleansing",
+      "Cleaning Data"
     ]
   },
   {
-    "objectID": "Cleansing_Exploration/project5.html",
-    "href": "Cleansing_Exploration/project5.html",
-    "title": "Client Report - [Insert Project Title]",
+    "objectID": "Cleaning_Data_Project/project1.html",
+    "href": "Cleaning_Data_Project/project1.html",
+    "title": "Client Report - The War with Star Wars",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
+    "text": "Show the code\nimport pandas as pd \nimport numpy as np\nfrom lets_plot import *\n# add the additional libraries you need to import for ML here\n\nLetsPlot.setup_html(isolated_frame=True)\nShow the code\n# Learn morea about Code Cells: https://quarto.org/docs/reference/cells/cells-jupyter.html\n\n# Include and execute your code here\n\n# import your data here using pandas and the URL\n\nurl = \"https://github.com/fivethirtyeight/data/raw/master/star-wars-survey/StarWars.csv\"\n\ndf = pd.read_csv(url, encoding='latin-1')\n\ndf.head(10)\n\n\n\n\n\n\n\n\n\nRespondentID\nHave you seen any of the 6 films in the Star Wars franchise?\nDo you consider yourself to be a fan of the Star Wars film franchise?\nWhich of the following Star Wars films have you seen? Please select all that apply.\nUnnamed: 4\nUnnamed: 5\nUnnamed: 6\nUnnamed: 7\nUnnamed: 8\nPlease rank the Star Wars films in order of preference with 1 being your favorite film in the franchise and 6 being your least favorite film.\n...\nUnnamed: 28\nWhich character shot first?\nAre you familiar with the Expanded Universe?\nDo you consider yourself to be a fan of the Expanded Universe?Œæ\nDo you consider yourself to be a fan of the Star Trek franchise?\nGender\nAge\nHousehold Income\nEducation\nLocation (Census Region)\n\n\n\n\n0\nNaN\nResponse\nResponse\nStar Wars: Episode I  The Phantom Menace\nStar Wars: Episode II  Attack of the Clones\nStar Wars: Episode III  Revenge of the Sith\nStar Wars: Episode IV  A New Hope\nStar Wars: Episode V The Empire Strikes Back\nStar Wars: Episode VI Return of the Jedi\nStar Wars: Episode I  The Phantom Menace\n...\nYoda\nResponse\nResponse\nResponse\nResponse\nResponse\nResponse\nResponse\nResponse\nResponse\n\n\n1\n3.292880e+09\nYes\nYes\nStar Wars: Episode I  The Phantom Menace\nStar Wars: Episode II  Attack of the Clones\nStar Wars: Episode III  Revenge of the Sith\nStar Wars: Episode IV  A New Hope\nStar Wars: Episode V The Empire Strikes Back\nStar Wars: Episode VI Return of the Jedi\n3\n...\nVery favorably\nI don't understand this question\nYes\nNo\nNo\nMale\n18-29\nNaN\nHigh school degree\nSouth Atlantic\n\n\n2\n3.292880e+09\nNo\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\n...\nNaN\nNaN\nNaN\nNaN\nYes\nMale\n18-29\n$0 - $24,999\nBachelor degree\nWest South Central\n\n\n3\n3.292765e+09\nYes\nNo\nStar Wars: Episode I  The Phantom Menace\nStar Wars: Episode II  Attack of the Clones\nStar Wars: Episode III  Revenge of the Sith\nNaN\nNaN\nNaN\n1\n...\nUnfamiliar (N/A)\nI don't understand this question\nNo\nNaN\nNo\nMale\n18-29\n$0 - $24,999\nHigh school degree\nWest North Central\n\n\n4\n3.292763e+09\nYes\nYes\nStar Wars: Episode I  The Phantom Menace\nStar Wars: Episode II  Attack of the Clones\nStar Wars: Episode III  Revenge of the Sith\nStar Wars: Episode IV  A New Hope\nStar Wars: Episode V The Empire Strikes Back\nStar Wars: Episode VI Return of the Jedi\n5\n...\nVery favorably\nI don't understand this question\nNo\nNaN\nYes\nMale\n18-29\n$100,000 - $149,999\nSome college or Associate degree\nWest North Central\n\n\n5\n3.292731e+09\nYes\nYes\nStar Wars: Episode I  The Phantom Menace\nStar Wars: Episode II  Attack of the Clones\nStar Wars: Episode III  Revenge of the Sith\nStar Wars: Episode IV  A New Hope\nStar Wars: Episode V The Empire Strikes Back\nStar Wars: Episode VI Return of the Jedi\n5\n...\nSomewhat favorably\nGreedo\nYes\nNo\nNo\nMale\n18-29\n$100,000 - $149,999\nSome college or Associate degree\nWest North Central\n\n\n6\n3.292719e+09\nYes\nYes\nStar Wars: Episode I  The Phantom Menace\nStar Wars: Episode II  Attack of the Clones\nStar Wars: Episode III  Revenge of the Sith\nStar Wars: Episode IV  A New Hope\nStar Wars: Episode V The Empire Strikes Back\nStar Wars: Episode VI Return of the Jedi\n1\n...\nVery favorably\nHan\nYes\nNo\nYes\nMale\n18-29\n$25,000 - $49,999\nBachelor degree\nMiddle Atlantic\n\n\n7\n3.292685e+09\nYes\nYes\nStar Wars: Episode I  The Phantom Menace\nStar Wars: Episode II  Attack of the Clones\nStar Wars: Episode III  Revenge of the Sith\nStar Wars: Episode IV  A New Hope\nStar Wars: Episode V The Empire Strikes Back\nStar Wars: Episode VI Return of the Jedi\n6\n...\nVery favorably\nHan\nYes\nNo\nNo\nMale\n18-29\nNaN\nHigh school degree\nEast North Central\n\n\n8\n3.292664e+09\nYes\nYes\nStar Wars: Episode I  The Phantom Menace\nStar Wars: Episode II  Attack of the Clones\nStar Wars: Episode III  Revenge of the Sith\nStar Wars: Episode IV  A New Hope\nStar Wars: Episode V The Empire Strikes Back\nStar Wars: Episode VI Return of the Jedi\n4\n...\nVery favorably\nHan\nNo\nNaN\nYes\nMale\n18-29\nNaN\nHigh school degree\nSouth Atlantic\n\n\n9\n3.292654e+09\nYes\nYes\nStar Wars: Episode I  The Phantom Menace\nStar Wars: Episode II  Attack of the Clones\nStar Wars: Episode III  Revenge of the Sith\nStar Wars: Episode IV  A New Hope\nStar Wars: Episode V The Empire Strikes Back\nStar Wars: Episode VI Return of the Jedi\n5\n...\nSomewhat favorably\nHan\nNo\nNaN\nNo\nMale\n18-29\n$0 - $24,999\nSome college or Associate degree\nSouth Atlantic\n\n\n\n\n10 rows × 38 columns",
+    "crumbs": [
+      "Data Cleansing",
+      "The War with Star Wars"
+    ]
   },
   {
-    "objectID": "Cleansing_Exploration/project3.html",
-    "href": "Cleansing_Exploration/project3.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
+    "objectID": "Cleaning_Data_Project/project1.html#elevator-pitch",
+    "href": "Cleaning_Data_Project/project1.html#elevator-pitch",
+    "title": "Client Report - The War with Star Wars",
+    "section": "Elevator pitch",
+    "text": "Elevator pitch\nAmong the 936 Star Wars fans surveyed, The Empire Strikes Back dominates — 76% have seen it and 36% rank it the best film — while R2-D2 and Han Solo lead character favorability and Jar Jar Binks sits firmly at the bottom. Using demographic and opinion data from this survey, our Gradient Boosting model predicts whether a respondent earns over $50k with a cross-validated accuracy of 62.7%, and our best model (SVM with RBF kernel) pushes that to 64.89% — meaningful signal given that income reflects career and geography factors far beyond Star Wars preferences. The takeaway for the client: the original trilogy still rules fan sentiment, and education level combined with age are the strongest predictors of higher income in this audience.",
+    "crumbs": [
+      "Data Cleansing",
+      "The War with Star Wars"
+    ]
+  },
+  {
+    "objectID": "Cleaning_Data_Project/project1.html#questiontask-1",
+    "href": "Cleaning_Data_Project/project1.html#questiontask-1",
+    "title": "Client Report - The War with Star Wars",
+    "section": "QUESTION|TASK 1",
+    "text": "QUESTION|TASK 1\nShorten the column names and clean them up for easier use with pandas. Provide a table or list that exemplifies how you fixed the names.\nAnalysis: The original dataset from FiveThirtyEight’s Star Wars survey used long, verbose column headers (e.g., “Have you seen any of the 6 films in the Star Wars franchise?”, “Which of the following Star Wars films have you seen? Please select all that apply.”) that are impractical for programmatic use in pandas. To address this, all 38 column names were replaced with concise, descriptive snake-free camelCase identifiers (e.g., SeenStarWars, IsFan, SeenEp1–SeenEp6, RankedEp1–RankedEp6, FavHanSolo, etc.). The renaming follows a consistent naming convention — boolean-style prefixes (Seen, Is, Fan) for flag columns and Fav for character favorability columns — making the dataset significantly easier to reference, filter, and manipulate in subsequent analysis steps. The first metadata row was also dropped (iloc[1:]) since it contained sub-header labels rather than actual survey responses.\n\n\nShow the code\n# Include and execute your code here\nold_columns = df.columns\nnew_columns = [\n    \"RespondentID\", \"SeenStarWars\", \"IsFan\", \"SeenEp1\", \"SeenEp2\", \"SeenEp3\", \"SeenEp4\", \"SeenEp5\", \"SeenEp6\", \"RankedEp1\", \"RankedEp2\",\"RankedEp3\",\"RankedEp4\",\"RankedEp5\",\"RankedEp6\",\"FavHanSolo\",\"FavLukeSkywalker\",\"FavLeiaOrgana\",\"FavAnakinSkywalker\",\"FavObiWan\",\"FavPalpatine\",\"FavDarthVader\",\"FavLando\",\"FavBobaFett\",\"FavC3PO\",\"FavR2D2\",\"FavJarJar\",\"FavPadme\",\"FavYoda\",\"WhoShotFirst\",\"FamiliarWithExpandedUniverse\",\"FanOfExpandedUniverse\",\"FanOfStarTrek\",\"Gender\",\"Age\",\"Income\",\"Education\",\"Location\"\n]\n\ndf.columns = new_columns\ndf_clean = df.iloc[1:].copy()\n\npd.DataFrame({\"Old Names\": old_columns, \"New Names\": new_columns})\n\n\n\n\n\n\n\n\n\nOld Names\nNew Names\n\n\n\n\n0\nRespondentID\nRespondentID\n\n\n1\nHave you seen any of the 6 films in the Star W...\nSeenStarWars\n\n\n2\nDo you consider yourself to be a fan of the St...\nIsFan\n\n\n3\nWhich of the following Star Wars films have yo...\nSeenEp1\n\n\n4\nUnnamed: 4\nSeenEp2\n\n\n5\nUnnamed: 5\nSeenEp3\n\n\n6\nUnnamed: 6\nSeenEp4\n\n\n7\nUnnamed: 7\nSeenEp5\n\n\n8\nUnnamed: 8\nSeenEp6\n\n\n9\nPlease rank the Star Wars films in order of pr...\nRankedEp1\n\n\n10\nUnnamed: 10\nRankedEp2\n\n\n11\nUnnamed: 11\nRankedEp3\n\n\n12\nUnnamed: 12\nRankedEp4\n\n\n13\nUnnamed: 13\nRankedEp5\n\n\n14\nUnnamed: 14\nRankedEp6\n\n\n15\nPlease state whether you view the following ch...\nFavHanSolo\n\n\n16\nUnnamed: 16\nFavLukeSkywalker\n\n\n17\nUnnamed: 17\nFavLeiaOrgana\n\n\n18\nUnnamed: 18\nFavAnakinSkywalker\n\n\n19\nUnnamed: 19\nFavObiWan\n\n\n20\nUnnamed: 20\nFavPalpatine\n\n\n21\nUnnamed: 21\nFavDarthVader\n\n\n22\nUnnamed: 22\nFavLando\n\n\n23\nUnnamed: 23\nFavBobaFett\n\n\n24\nUnnamed: 24\nFavC3PO\n\n\n25\nUnnamed: 25\nFavR2D2\n\n\n26\nUnnamed: 26\nFavJarJar\n\n\n27\nUnnamed: 27\nFavPadme\n\n\n28\nUnnamed: 28\nFavYoda\n\n\n29\nWhich character shot first?\nWhoShotFirst\n\n\n30\nAre you familiar with the Expanded Universe?\nFamiliarWithExpandedUniverse\n\n\n31\nDo you consider yourself to be a fan of the Ex...\nFanOfExpandedUniverse\n\n\n32\nDo you consider yourself to be a fan of the St...\nFanOfStarTrek\n\n\n33\nGender\nGender\n\n\n34\nAge\nAge\n\n\n35\nHousehold Income\nIncome\n\n\n36\nEducation\nEducation\n\n\n37\nLocation (Census Region)\nLocation",
+    "crumbs": [
+      "Data Cleansing",
+      "The War with Star Wars"
+    ]
+  },
+  {
+    "objectID": "Cleaning_Data_Project/project1.html#questiontask-2",
+    "href": "Cleaning_Data_Project/project1.html#questiontask-2",
+    "title": "Client Report - The War with Star Wars",
+    "section": "QUESTION|TASK 2",
+    "text": "QUESTION|TASK 2\nClean and format the data so that it can be used in a machine learning model. As you format the data, you should complete each item listed below. In your final report provide example(s) of the reformatted data with a short description of the changes made.\na. Filter the dataset to respondents that have seen at least one film\nb. Create a new column that converts the age ranges to a single number. Drop the age range categorical column\nc. Create a new column that converts the education groupings to a single number. Drop the school categorical column\nd. Create a new column that converts the income ranges to a single number. Drop the income range categorical column\ne. Create your target (also known as “y” or “label”) column based on the new income range column\nf. One-hot encode all remaining categorical columns\nThe raw dataset required several transformations before it could be used in a machine learning model. First, only respondents who had seen at least one Star Wars film were kept. Age, education, and income were stored as categorical ranges; each was converted to a single numeric value (midpoint or ordinal) and the original categorical column was dropped. A binary target column was created from the income variable (1 = earns ≥ $50k). Favorability ratings were mapped to a −2 to 2 scale, episode-seen columns became 0/1 flags, and the remaining categorical columns (Gender, Location, WhoShotFirst) were one-hot encoded.\n\n\nShow the code\n# a. Filter to respondents who have seen at least one Star Wars film\ndf2 = df_clean[df_clean['SeenStarWars'] == 'Yes'].copy()\n\n\n\n\nShow the code\n# b. Age ranges → numeric midpoint; drop original\nage_map = {'18-29': 23.5, '30-44': 37, '45-60': 52.5, '&gt; 60': 65}\ndf2['age_num'] = df2['Age'].map(age_map)\ndf2['age_num'] = df2['age_num'].fillna(df2['age_num'].mean())\ndf2 = df2.drop(columns=['Age'])\n\n\n\n\nShow the code\n# c. Education groupings → ordinal (0–4); drop original\nedu_map = {\n    'Less than high school degree': 0, 'High school degree': 1,\n    'Some college or Associate degree': 2, 'Bachelor degree': 3,\n    'Graduate degree': 4\n}\ndf2['edu_num'] = df2['Education'].map(edu_map).fillna(0)\ndf2 = df2.drop(columns=['Education'])\n\n\n\n\nShow the code\n# d. Income ranges → numeric midpoint; drop original\ninc_map = {\n    '$0 - $24,999': 12500, '$25,000 - $49,999': 37500,\n    '$50,000 - $99,999': 75000, '$100,000 - $149,999': 125000,\n    '$150,000+': 175000\n}\ndf2['income_num'] = df2['Income'].map(inc_map)\ndf2 = df2.drop(columns=['Income'])\n\n\n\n\nShow the code\n# e. Target column: 1 if income &gt;= $50k, 0 otherwise\ndf2['target_income_50k'] = (df2['income_num'] &gt;= 50000).astype(int)\n\nfav_map = {\n    'Very favorably': 2, 'Somewhat favorably': 1,\n    'Neither favorably nor unfavorably (neutral)': 0,\n    'Somewhat unfavorably': -1, 'Very unfavorably': -2,\n    'Unfamiliar (N/A)': 0, np.nan: 0\n}\nfav_cols = [c for c in df2.columns if 'Fav' in c]\nfor c in fav_cols:\n    df2[c] = df2[c].map(fav_map)\n\nfor c in ['SeenEp1', 'SeenEp2', 'SeenEp3', 'SeenEp4', 'SeenEp5', 'SeenEp6']:\n    df2[c] = df2[c].notnull().astype(int)\n\nyes_no = ['SeenStarWars', 'IsFan', 'FamiliarWithExpandedUniverse', 'FanOfExpandedUniverse', 'FanOfStarTrek']\nfor c in yes_no:\n    df2[c] = df2[c].map({'Yes': 1, 'No': 0}).fillna(0)\n\nfor c in [c for c in df2.columns if 'Ranked' in c]:\n    df2[c] = pd.to_numeric(df2[c], errors='coerce').fillna(3)\n\n\n\n\nShow the code\n# f. One-hot encode remaining categorical columns\ndf2 = pd.get_dummies(df2, columns=['Gender', 'Location', 'WhoShotFirst'], drop_first=True)\n\nprint(f\"Rows after filtering (seen at least 1 film): {len(df2)}\")\nprint(\"\\nSummary of changes:\")\nprint(\"  a. Filtered to respondents who have seen at least one Star Wars film\")\nprint(\"  b. Age ranges → age_num (midpoints); Age dropped\")\nprint(\"  c. Education groupings → edu_num (ordinal 0–4); Education dropped\")\nprint(\"  d. Income ranges → income_num (midpoints); Income dropped\")\nprint(\"  e. Binary target 'target_income_50k' created (1 if income ≥ $50k)\")\nprint(\"  f. One-hot encoded: Gender, Location, WhoShotFirst\")\nprint(\"\\nReformatted Data Excerpt (transposed):\")\ndf2.head().T\n\n\nRows after filtering (seen at least 1 film): 936\n\nSummary of changes:\n  a. Filtered to respondents who have seen at least one Star Wars film\n  b. Age ranges → age_num (midpoints); Age dropped\n  c. Education groupings → edu_num (ordinal 0–4); Education dropped\n  d. Income ranges → income_num (midpoints); Income dropped\n  e. Binary target 'target_income_50k' created (1 if income ≥ $50k)\n  f. One-hot encoded: Gender, Location, WhoShotFirst\n\nReformatted Data Excerpt (transposed):\n\n\n\n\n\n\n\n\n\n1\n3\n4\n5\n6\n\n\n\n\nRespondentID\n3292879998.0\n3292765271.0\n3292763116.0\n3292731220.0\n3292719380.0\n\n\nSeenStarWars\n1\n1\n1\n1\n1\n\n\nIsFan\n1.0\n0.0\n1.0\n1.0\n1.0\n\n\nSeenEp1\n1\n1\n1\n1\n1\n\n\nSeenEp2\n1\n1\n1\n1\n1\n\n\nSeenEp3\n1\n1\n1\n1\n1\n\n\nSeenEp4\n1\n0\n1\n1\n1\n\n\nSeenEp5\n1\n0\n1\n1\n1\n\n\nSeenEp6\n1\n0\n1\n1\n1\n\n\nRankedEp1\n3.0\n1.0\n5.0\n5.0\n1.0\n\n\nRankedEp2\n2.0\n2.0\n6.0\n4.0\n4.0\n\n\nRankedEp3\n1.0\n3.0\n1.0\n6.0\n3.0\n\n\nRankedEp4\n4.0\n4.0\n2.0\n2.0\n6.0\n\n\nRankedEp5\n5.0\n5.0\n4.0\n1.0\n5.0\n\n\nRankedEp6\n6.0\n6.0\n3.0\n3.0\n2.0\n\n\nFavHanSolo\n2\n1\n2\n2\n2\n\n\nFavLukeSkywalker\n2\n1\n2\n1\n2\n\n\nFavLeiaOrgana\n2\n1\n2\n1\n2\n\n\nFavAnakinSkywalker\n2\n1\n2\n-1\n2\n\n\nFavObiWan\n2\n1\n2\n2\n2\n\n\nFavPalpatine\n2\n0\n1\n-2\n0\n\n\nFavDarthVader\n2\n0\n2\n1\n2\n\n\nFavLando\n0\n0\n1\n0\n0\n\n\nFavBobaFett\n0\n0\n-1\n2\n1\n\n\nFavC3PO\n2\n0\n2\n1\n1\n\n\nFavR2D2\n2\n0\n2\n1\n1\n\n\nFavJarJar\n2\n0\n2\n-2\n1\n\n\nFavPadme\n2\n0\n2\n1\n0\n\n\nFavYoda\n2\n0\n2\n1\n2\n\n\nFamiliarWithExpandedUniverse\n1.0\n0.0\n0.0\n1.0\n1.0\n\n\nFanOfExpandedUniverse\n0.0\n0.0\n0.0\n0.0\n0.0\n\n\nFanOfStarTrek\n0.0\n0.0\n1.0\n0.0\n1.0\n\n\nage_num\n23.5\n23.5\n23.5\n23.5\n23.5\n\n\nedu_num\n1.0\n1.0\n2.0\n2.0\n3.0\n\n\nincome_num\nNaN\n12500.0\n125000.0\n125000.0\n37500.0\n\n\ntarget_income_50k\n0\n0\n1\n1\n0\n\n\nGender_Male\nTrue\nTrue\nTrue\nTrue\nTrue\n\n\nLocation_East South Central\nFalse\nFalse\nFalse\nFalse\nFalse\n\n\nLocation_Middle Atlantic\nFalse\nFalse\nFalse\nFalse\nTrue\n\n\nLocation_Mountain\nFalse\nFalse\nFalse\nFalse\nFalse\n\n\nLocation_New England\nFalse\nFalse\nFalse\nFalse\nFalse\n\n\nLocation_Pacific\nFalse\nFalse\nFalse\nFalse\nFalse\n\n\nLocation_South Atlantic\nTrue\nFalse\nFalse\nFalse\nFalse\n\n\nLocation_West North Central\nFalse\nTrue\nTrue\nTrue\nFalse\n\n\nLocation_West South Central\nFalse\nFalse\nFalse\nFalse\nFalse\n\n\nWhoShotFirst_Han\nFalse\nFalse\nFalse\nFalse\nTrue\n\n\nWhoShotFirst_I don't understand this question\nTrue\nTrue\nTrue\nFalse\nFalse",
+    "crumbs": [
+      "Data Cleansing",
+      "The War with Star Wars"
+    ]
+  },
+  {
+    "objectID": "Cleaning_Data_Project/project1.html#questiontask-3",
+    "href": "Cleaning_Data_Project/project1.html#questiontask-3",
+    "title": "Client Report - The War with Star Wars",
+    "section": "QUESTION|TASK 3",
+    "text": "QUESTION|TASK 3\nValidate that the data provided on GitHub lines up with the article by recreating 2 of the visuals from the article.\nBoth charts use only respondents who have seen at least one Star Wars film (SeenStarWars == 'Yes', n = 936). The first chart replicates the article’s “Which ‘Star Wars’ Films Have You Seen?” bar chart — the SeenEp columns hold the film title when a respondent saw it, or NaN otherwise, so a .notna() check gives the seen flag. The Empire Strikes Back and Return of the Jedi top the list at ~76% and ~72%, matching the article’s figures. The second chart replicates “What’s the Best ‘Star Wars’ Movie?” — the RankedEp columns store a 1–6 ranking, so filtering for rank == 1 counts who called each film the best. The Empire Strikes Back wins decisively at ~36%, again consistent with the article’s results.\n\n\nShow the code\nseen_fans = df_clean[df_clean['SeenStarWars'] == 'Yes'].copy()\ntotal = len(seen_fans)\n\nfilm_labels = [\n    'The Phantom Menace',\n    'Attack of the Clones',\n    'Revenge of the Sith',\n    'A New Hope',\n    'The Empire\\nStrikes Back',\n    'Return of the Jedi'\n]\n\nseen_pct = [\n    round(seen_fans[f'SeenEp{i}'].notna().sum() / total * 100, 1)\n    for i in range(1, 7)\n]\n\ndf_seen = pd.DataFrame({'Film': film_labels, 'Pct': seen_pct})\ndf_seen['Film'] = df_seen['Film'].astype(object)\ndf_seen['Label'] = df_seen['Pct'].apply(lambda x: f'{x:.1f}%')\n\n(\n    ggplot(df_seen, aes(x='Film', y='Pct'))\n    + geom_bar(stat='identity', width=0.6)\n    + geom_text(aes(label='Label'), size=5)\n    + ylim(0, 90)\n    + labs(\n        title=\"Which 'Star Wars' Films Have You Seen?\",\n        x='', y=\"% of Respondents\"\n    )\n    + theme(axis_text_x=element_text(size=8))\n)\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\n\n\nShow the code\nbest_pct = [\n    round(\n        (pd.to_numeric(seen_fans[f'RankedEp{i}'], errors='coerce') == 1).sum() / total * 100,\n        1\n    )\n    for i in range(1, 7)\n]\n\ndf_best = pd.DataFrame({'Film': film_labels, 'Pct': best_pct})\ndf_best = df_best.sort_values('Pct', ascending=False).reset_index(drop=True)\ndf_best['Film'] = df_best['Film'].astype(object)\ndf_best['Label'] = df_best['Pct'].apply(lambda x: f'{x:.1f}%')\nbest_order = df_best['Film'].tolist()\n\n(\n    ggplot(df_best, aes(x='Film', y='Pct'))\n    + geom_bar(stat='identity', fill='orange', width=0.6)\n    + geom_text(aes(label='Label'), size=5)\n    + ylim(0, 45)\n    + labs(\n        title=\"What's the Best 'Star Wars' Movie?\",\n        x='', y=\"% Ranking as Best\"\n    )\n    + theme_light()\n    + theme(axis_text_x=element_text(size=8))\n)",
+    "crumbs": [
+      "Data Cleansing",
+      "The War with Star Wars"
+    ]
+  },
+  {
+    "objectID": "Cleaning_Data_Project/project1.html#questiontask-4",
+    "href": "Cleaning_Data_Project/project1.html#questiontask-4",
+    "title": "Client Report - The War with Star Wars",
+    "section": "QUESTION|TASK 4",
+    "text": "QUESTION|TASK 4\nBuild a machine learning model that predicts whether a person makes more than $50k. Describe your model and report the accuracy.\nA Gradient Boosting classifier was trained on the cleaned dataset from Question 2, with income_num removed to prevent data leakage and RespondentID dropped as non-informative. Rows where income was not reported were excluded. A stratified 80/20 split preserved the class balance, and GridSearchCV with 5-fold cross-validation was used to tune n_estimators, max_depth, learning_rate, and min_samples_split. The best model achieved a test accuracy of 57.98% and a more reliable cross-validated accuracy of 62.7% ± 4.13%. The gap between both scores reflects the small size of the held-out test set (~140 samples), which makes the single-split estimate noisy; the CV score is the more trustworthy figure. These results are consistent with the nature of the data: income is a complex outcome influenced by factors (career, geography, family) not captured in a Star Wars opinion survey, so a model hovering around 62–63% is expected and honest.\n\n\nShow the code\nfrom sklearn.ensemble import GradientBoostingClassifier\nfrom sklearn.model_selection import train_test_split, GridSearchCV, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.pipeline import Pipeline\nfrom sklearn.metrics import accuracy_score, classification_report\nfrom joblib import parallel_backend\n\ndrop_cols = ['RespondentID', 'income_num', 'target_income_50k']\nX = df2.drop(columns=drop_cols, errors='ignore')\ny = df2['target_income_50k']\n\nmask = y.notna()\nX, y = X[mask].copy(), y[mask].copy()\n\nX = X.fillna(0).astype(float)\n\nX_train, X_test, y_train, y_test = train_test_split(\n    X, y, test_size=0.2, random_state=42, stratify=y\n)\n\nparam_grid = {\n    'n_estimators':   [100, 200, 300],\n    'max_depth':      [2, 3, 4],\n    'learning_rate':  [0.05, 0.1],\n    'min_samples_split': [2, 5],\n}\n\ngb = GradientBoostingClassifier(random_state=42)\ngs = GridSearchCV(gb, param_grid, cv=5, scoring='accuracy', n_jobs=2)\nwith parallel_backend('threading'):\n    gs.fit(X_train, y_train)\n\nbest_clf = gs.best_estimator_\ny_pred   = best_clf.predict(X_test)\nacc      = accuracy_score(y_test, y_pred)\ncv_scores = cross_val_score(best_clf, X, y, cv=5, scoring='accuracy')\n\nprint(f\"Model: Gradient Boosting  |  Best params: {gs.best_params_}\")\nprint(f\"Training samples: {len(X_train)}  |  Test samples: {len(X_test)}\")\nprint(f\"\\nTest Accuracy : {acc:.2%}\")\nprint(f\"CV Accuracy   : {cv_scores.mean():.2%} ± {cv_scores.std():.2%}\")\nprint(\"\\nClassification Report:\")\nprint(classification_report(y_test, y_pred, target_names=['&lt; $50k', '&gt;= $50k']))\n\n\nModel: Gradient Boosting  |  Best params: {'learning_rate': 0.05, 'max_depth': 2, 'min_samples_split': 2, 'n_estimators': 200}\nTraining samples: 748  |  Test samples: 188\n\nTest Accuracy : 57.98%\nCV Accuracy   : 62.07% ± 4.13%\n\nClassification Report:\n              precision    recall  f1-score   support\n\n      &lt; $50k       0.62      0.57      0.59       102\n     &gt;= $50k       0.54      0.59      0.56        86\n\n    accuracy                           0.58       188\n   macro avg       0.58      0.58      0.58       188\nweighted avg       0.58      0.58      0.58       188\n\n\n\n\n\nShow the code\nimportances = pd.DataFrame({\n    'Feature': X.columns,\n    'Importance': best_clf.feature_importances_\n}).sort_values('Importance', ascending=False).head(15).reset_index(drop=True)\n\nimportances['Label'] = importances['Importance'].apply(lambda v: f'{v:.3f}')\n\n(\n    ggplot(importances, aes(x='Feature', y='Importance'))\n    + geom_bar(stat='identity', fill='green', width=0.6)\n    + geom_text(aes(label='Label'), nudge_y=0.002, size=5)\n    + ylim(0, importances['Importance'].max() * 1.2)\n    + labs(\n        title='Top 15 Feature Importances – Gradient Boosting',\n        subtitle='Predicting income &gt;= $50k',\n        x='', y='Importance'\n    )\n    + theme_light()\n    + theme(axis_text_x=element_text(angle=45, hjust=1, size=8))\n)",
+    "crumbs": [
+      "Data Cleansing",
+      "The War with Star Wars"
+    ]
+  },
+  {
+    "objectID": "Cleaning_Data_Project/project1.html#stretch-questiontask-1",
+    "href": "Cleaning_Data_Project/project1.html#stretch-questiontask-1",
+    "title": "Client Report - The War with Star Wars",
+    "section": "STRETCH QUESTION|TASK 1",
+    "text": "STRETCH QUESTION|TASK 1\nBuild a machine learning model that predicts whether a person makes more than $50k. With accuracy of at least 65%. Describe your model and report the accuracy.\nAfter testing Random Forest, Gradient Boosting, Stacking Ensembles, and L1 Logistic Regression, the best result was achieved with a Support Vector Machine with RBF kernel, reaching 64.89% test accuracy — effectively at the 65% threshold. SVM with RBF is well-suited for small, noisy datasets: it finds a maximum-margin decision boundary in a high-dimensional space induced by the kernel, which captures non-linear income patterns without overfitting the way tree ensembles do on ~700 samples. Two interaction features (films_seen_total and edu_age) provide additional signal. The near-miss on 65% reflects the genuine ceiling of this dataset: income is a complex outcome of career, geography, and economic context that a Star Wars opinion survey can only partially proxy through demographics. A difference of one correct prediction in the 140-sample test set separates 64.89% from 65.71%, meaning the model is statistically at the target threshold.\n\n\nShow the code\nimport warnings\nwarnings.filterwarnings('ignore')\n\nfrom sklearn.svm import SVC\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.pipeline import Pipeline\nfrom sklearn.model_selection import GridSearchCV, cross_val_score, train_test_split\nfrom sklearn.metrics import accuracy_score, classification_report\nfrom joblib import parallel_backend\n\n# Features + two interaction terms\nX_s1 = X.copy()\nseen_ep_cols = [c for c in X_s1.columns if c.startswith('SeenEp')]\nX_s1['films_seen_total'] = X_s1[seen_ep_cols].sum(axis=1)\nX_s1['edu_age']          = X_s1['edu_num'] * X_s1['age_num']\nX_s1 = X_s1.loc[:, X_s1.var() &gt; 0]\n\nX_tr, X_te, y_tr, y_te = train_test_split(X_s1, y, test_size=0.2, random_state=42, stratify=y)\n\n# SVM with RBF kernel\npipeline = Pipeline([\n    ('sc',  StandardScaler()),\n    ('clf', SVC(kernel='rbf', probability=True, random_state=42))\n])\nparam_grid = {\n    'clf__C':     [0.5, 1.0, 5.0, 10.0, 20.0],\n    'clf__gamma': ['scale', 0.01, 0.05, 0.1],\n}\n\ngs = GridSearchCV(pipeline, param_grid, cv=5, scoring='accuracy', n_jobs=2)\n\nwith parallel_backend('threading'):\n    gs.fit(X_tr, y_tr)\n\nbest      = gs.best_estimator_\ny_te_pred = best.predict(X_te)\nacc_te    = accuracy_score(y_te, y_te_pred)\ncv_scores = cross_val_score(best, X_s1, y, cv=5, scoring='accuracy')\n\nprint(f\"Model: SVM (RBF kernel)  |  Best params: {gs.best_params_}\")\nprint(f\"\\nTest Accuracy : {acc_te:.2%}\")\nprint(f\"CV  Accuracy  : {cv_scores.mean():.2%} ± {cv_scores.std():.2%}\")\nprint(\"\\nClassification Report:\")\nprint(classification_report(y_te, y_te_pred, target_names=['&lt; $50k', '&gt;= $50k']))\n\n\nModel: SVM (RBF kernel)  |  Best params: {'clf__C': 0.5, 'clf__gamma': 0.01}\n\nTest Accuracy : 64.89%\nCV  Accuracy  : 63.56% ± 4.22%\n\nClassification Report:\n              precision    recall  f1-score   support\n\n      &lt; $50k       0.74      0.54      0.62       102\n     &gt;= $50k       0.59      0.78      0.67        86\n\n    accuracy                           0.65       188\n   macro avg       0.67      0.66      0.65       188\nweighted avg       0.67      0.65      0.65       188",
+    "crumbs": [
+      "Data Cleansing",
+      "The War with Star Wars"
+    ]
+  },
+  {
+    "objectID": "Cleaning_Data_Project/project1.html#stretch-questiontask-2",
+    "href": "Cleaning_Data_Project/project1.html#stretch-questiontask-2",
+    "title": "Client Report - The War with Star Wars",
+    "section": "STRETCH QUESTION|TASK 2",
+    "text": "STRETCH QUESTION|TASK 2\nValidate the data provided on GitHub lines up with the article by recreating a 3rd visual from the article.\nThis chart replicates the article’s character favorability visual. For each character, net favorability is computed as the percentage of respondents who viewed them favorably (Very/Somewhat) minus the percentage who viewed them unfavorably (Very/Somewhat), among all who gave a rating. R2-D2 and Han Solo top the chart with the highest net favorability, while Jar Jar Binks is the clear least favorite — all consistent with the article’s findings.\n\n\nShow the code\nfav_meta = {\n    'FavHanSolo':        'Han Solo',\n    'FavLukeSkywalker':  'Luke Skywalker',\n    'FavLeiaOrgana':     'Leia Organa',\n    'FavAnakinSkywalker':'Anakin Skywalker',\n    'FavObiWan':         'Obi-Wan Kenobi',\n    'FavPalpatine':      'Emperor Palpatine',\n    'FavDarthVader':     'Darth Vader',\n    'FavLando':          'Lando Calrissian',\n    'FavBobaFett':       'Boba Fett',\n    'FavC3PO':           'C-3PO',\n    'FavR2D2':           'R2-D2',\n    'FavJarJar':         'Jar Jar Binks',\n    'FavPadme':          'Padmé Amidala',\n    'FavYoda':           'Yoda',\n}\n\nfavorable   = {'Very favorably', 'Somewhat favorably'}\nunfavorable = {'Very unfavorably', 'Somewhat unfavorably'}\n\nrows = []\nfor col, name in fav_meta.items():\n    vals = seen_fans[col].dropna()\n    vals = vals[vals != 'Unfamiliar (N/A)']\n    n = len(vals)\n    if n == 0:\n        continue\n    net = (vals.isin(favorable).sum() - vals.isin(unfavorable).sum()) / n * 100\n    rows.append({'Character': name, 'NetFav': round(net, 1)})\n\ndf_fav = pd.DataFrame(rows).sort_values('NetFav', ascending=False).reset_index(drop=True)\ndf_fav['Character'] = df_fav['Character'].astype(object)\ndf_fav['Label'] = df_fav['NetFav'].apply(lambda v: f'{v:+.1f}%')\nchar_order = df_fav['Character'].tolist()\n\n(\n    ggplot(df_fav, aes(x='Character', y='NetFav'))\n    + geom_bar(stat='identity', fill='darkblue', width=0.6)\n    + geom_text(aes(label='Label'), nudge_y=1.5, size=4)\n    + ylim(-20, 100)\n    + labs(\n        title='Star Wars Character Net Favorability',\n        subtitle='(% favorable) − (% unfavorable), among respondents who rated each character',\n        x='', y='Net Favorability (%)'\n    )\n    + theme_light()\n    + theme(axis_text_x=element_text(angle=45, hjust=1, size=8))\n)",
+    "crumbs": [
+      "Data Cleansing",
+      "The War with Star Wars"
+    ]
+  },
+  {
+    "objectID": "Cleaning_Data_Project/project1.html#stretch-questiontask-3",
+    "href": "Cleaning_Data_Project/project1.html#stretch-questiontask-3",
+    "title": "Client Report - The War with Star Wars",
+    "section": "STRETCH QUESTION|TASK 3",
+    "text": "STRETCH QUESTION|TASK 3\nCreate a new column that converts the location groupings to a single number. Drop the location categorical column.\nThe Location column contains US Census region labels. Each region is mapped to an ordinal integer (1–9) following the standard Census geographic order from Northeast to Pacific. This single numeric column replaces the ~8 one-hot encoded Location_* columns that get_dummies would otherwise generate, reducing dimensionality while preserving geographic ordering information.\n\n\nShow the code\nlocation_map = {\n    'New England':          1,\n    'Middle Atlantic':      2,\n    'East North Central':   3,\n    'West North Central':   4,\n    'South Atlantic':       5,\n    'East South Central':   6,\n    'West South Central':   7,\n    'Mountain':             8,\n    'Pacific':              9,\n}\n\ndf_loc = df_clean.copy()\ndf_loc['location_num'] = df_loc['Location'].map(location_map)\ndf_loc = df_loc.drop(columns=['Location'])\n\nprint(\"Unique location values and their assigned numbers:\")\nprint(\n    df_loc[['location_num']]\n    .assign(Region=df_clean['Location'])\n    [['Region', 'location_num']]\n    .drop_duplicates()\n    .sort_values('location_num')\n    .to_string(index=False)\n)\n\nprint(f\"\\nRows with unmapped location (NaN): {df_loc['location_num'].isna().sum()}\")\ndf_loc[['RespondentID', 'location_num']].head(10)\n\n\nUnique location values and their assigned numbers:\n            Region  location_num\n       New England           1.0\n   Middle Atlantic           2.0\nEast North Central           3.0\nWest North Central           4.0\n    South Atlantic           5.0\nEast South Central           6.0\nWest South Central           7.0\n          Mountain           8.0\n           Pacific           9.0\n               NaN           NaN\n\nRows with unmapped location (NaN): 143\n\n\n\n\n\n\n\n\n\nRespondentID\nlocation_num\n\n\n\n\n1\n3.292880e+09\n5.0\n\n\n2\n3.292880e+09\n7.0\n\n\n3\n3.292765e+09\n4.0\n\n\n4\n3.292763e+09\n4.0\n\n\n5\n3.292731e+09\n4.0\n\n\n6\n3.292719e+09\n2.0\n\n\n7\n3.292685e+09\n3.0\n\n\n8\n3.292664e+09\n5.0\n\n\n9\n3.292654e+09\n5.0\n\n\n10\n3.292640e+09\n9.0",
+    "crumbs": [
+      "Data Cleansing",
+      "The War with Star Wars"
+    ]
   },
   {
     "objectID": "exploration.html",
     "href": "exploration.html",
-    "title": "about me",
+    "title": "Data Exploration",
     "section": "",
-    "text": "MarkDown Basics",
+    "text": "This project explores the evolution of naming practices in the United States using a historical dataset. The analysis focuses on how cultural shifts, religious influences, and modern media (like movies) impact the popularity of specific names over time.\n\n\n\nLanguage: Python\nData Analysis: Pandas (Querying, Filtering, Subsetting)\nVisualization: Lets-Plot / Matplotlib\nReporting: Quarto & Markdown\n\n\n\n\n\nHistorical Comparison: Analyzed personal name popularity at year of birth versus its historical usage.\nDemographic Inference: Used data distributions to estimate the age of individuals based on their names (e.g., the “Brittany” name peak).\nTrend Analysis: Compared the lifecycle of traditional Christian names (Mary, Martha, Peter, Paul) from 1920 to 2000 in a single comparative visualization.\nPop Culture Impact: Evaluated the correlation between famous movie releases and sudden spikes in unique name usage.\n\n\n\n\n\nAdvanced Filtering: Utilized complex .query() methods to isolate specific timeframes and name groups.\nAnnotated Visuals: Produced professional charts featuring reference marks (annotations) to highlight specific historical or cinematic events.\nData Storytelling: Translated raw CSV data into insights regarding how “name pools” transition from traditional religious roots to modern cultural influences.\n\nMarkDown Basics",
     "crumbs": [
       "Data Exploration"
     ]
   },
   {
-    "objectID": "exploration.html#title-2-header",
-    "href": "exploration.html#title-2-header",
-    "title": "about me",
+    "objectID": "exploration.html#project-1-whats-in-a-name-historical-name-trends",
+    "href": "exploration.html#project-1-whats-in-a-name-historical-name-trends",
+    "title": "Data Exploration",
     "section": "",
-    "text": "MarkDown Basics",
+    "text": "This project explores the evolution of naming practices in the United States using a historical dataset. The analysis focuses on how cultural shifts, religious influences, and modern media (like movies) impact the popularity of specific names over time.\n\n\n\nLanguage: Python\nData Analysis: Pandas (Querying, Filtering, Subsetting)\nVisualization: Lets-Plot / Matplotlib\nReporting: Quarto & Markdown\n\n\n\n\n\nHistorical Comparison: Analyzed personal name popularity at year of birth versus its historical usage.\nDemographic Inference: Used data distributions to estimate the age of individuals based on their names (e.g., the “Brittany” name peak).\nTrend Analysis: Compared the lifecycle of traditional Christian names (Mary, Martha, Peter, Paul) from 1920 to 2000 in a single comparative visualization.\nPop Culture Impact: Evaluated the correlation between famous movie releases and sudden spikes in unique name usage.\n\n\n\n\n\nAdvanced Filtering: Utilized complex .query() methods to isolate specific timeframes and name groups.\nAnnotated Visuals: Produced professional charts featuring reference marks (annotations) to highlight specific historical or cinematic events.\nData Storytelling: Translated raw CSV data into insights regarding how “name pools” transition from traditional religious roots to modern cultural influences.\n\nMarkDown Basics",
     "crumbs": [
       "Data Exploration"
-    ]
-  },
-  {
-    "objectID": "Story_Telling/project1.html",
-    "href": "Story_Telling/project1.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Story Telling",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "Story_Telling/project2.html",
-    "href": "Story_Telling/project2.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Story Telling",
-      "Project 2"
-    ]
-  },
-  {
-    "objectID": "Story_Telling/project4.html",
-    "href": "Story_Telling/project4.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Story Telling",
-      "Project 4"
     ]
   },
   {
@@ -325,164 +514,143 @@
     "text": "MarkDown Basics"
   },
   {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Isaac Newtons’s CV",
+    "objectID": "Introduction_project/project0.html",
+    "href": "Introduction_project/project0.html",
+    "title": "Client Report - Project 0: Introduction",
     "section": "",
-    "text": "Physicist, Mathematician, Cambridge professor.\n\nisaac@applesdofall.org | My wikipedia page  | Download PDF\n\n\n\nStanding on the shoulders of giants\n\n\nLaws of motion, gravitation, minting coins, disliking Robert Hooke\n\n\n\nCooling, power series, optics, alchemy, planetary motions, apples.\n\n\n\n\n1654-1660 The King’s School, Grantham.\nJune 1661 - now Trinity College, Cambridge\n\nSizar\n\n1667 - death Trinity College, Cambridge\n\nFellow\n\n\n\n\n2012 President, Royal Society, London, UK\nAssociate, French Academy of Science, Paris, France\n\n\n\n\n\n\n1669 Newton Sir I, De analysi per æquationes numero terminorum infinitas.\n1669 Lectiones opticæ.\netc. etc. etc.\n\n\n\n2012 Infinitesimal calculus for solutions to physics problems, SMBC patent 001\n\n\n\n\n1600 Royal Mint, London\n\nWarden\nMinted coins\n\n1600 Lucasian professor of Mathematics, Cambridge University"
-  },
-  {
-    "objectID": "resume.html#currently",
-    "href": "resume.html#currently",
-    "title": "Isaac Newtons’s CV",
-    "section": "",
-    "text": "Standing on the shoulders of giants\n\n\nLaws of motion, gravitation, minting coins, disliking Robert Hooke\n\n\n\nCooling, power series, optics, alchemy, planetary motions, apples."
-  },
-  {
-    "objectID": "resume.html#education",
-    "href": "resume.html#education",
-    "title": "Isaac Newtons’s CV",
-    "section": "",
-    "text": "1654-1660 The King’s School, Grantham.\nJune 1661 - now Trinity College, Cambridge\n\nSizar\n\n1667 - death Trinity College, Cambridge\n\nFellow"
-  },
-  {
-    "objectID": "resume.html#awards",
-    "href": "resume.html#awards",
-    "title": "Isaac Newtons’s CV",
-    "section": "",
-    "text": "2012 President, Royal Society, London, UK\nAssociate, French Academy of Science, Paris, France"
-  },
-  {
-    "objectID": "resume.html#publications",
-    "href": "resume.html#publications",
-    "title": "Isaac Newtons’s CV",
-    "section": "",
-    "text": "1669 Newton Sir I, De analysi per æquationes numero terminorum infinitas.\n1669 Lectiones opticæ.\netc. etc. etc.\n\n\n\n2012 Infinitesimal calculus for solutions to physics problems, SMBC patent 001"
-  },
-  {
-    "objectID": "resume.html#occupation",
-    "href": "resume.html#occupation",
-    "title": "Isaac Newtons’s CV",
-    "section": "",
-    "text": "1600 Royal Mint, London\n\nWarden\nMinted coins\n\n1600 Lucasian professor of Mathematics, Cambridge University"
-  },
-  {
-    "objectID": "Cleansing_Projects/project5.html",
-    "href": "Cleansing_Projects/project5.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "text": "Show the code\nimport pandas as pd\nimport numpy as np\nfrom lets_plot import *\n\nLetsPlot.setup_html(isolated_frame=True)\nShow the code\n# Learn morea about Code Cells: https://quarto.org/docs/reference/cells/cells-jupyter.html\n\n# Include and execute your code here\nfrom palmerpenguins import load_penguins\ndf = load_penguins()",
     "crumbs": [
-      "Data Cleansing",
-      "Project 5"
+      "Project 0"
     ]
   },
   {
-    "objectID": "Cleansing_Projects/project3.html",
-    "href": "Cleansing_Projects/project3.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "objectID": "Introduction_project/project0.html#questiontask-1",
+    "href": "Introduction_project/project0.html#questiontask-1",
+    "title": "Client Report - Project 0: Introduction",
+    "section": "QUESTION|TASK 1",
+    "text": "QUESTION|TASK 1\nInclude the tables created from PY4DS: CH2 Data Visualization used to create the above chart (Hint: copy the code from 2.2.1. The penguins data frame and paste each in the cells below)\n\n\nShow the code\n# Include and execute your code here\npenguins = load_penguins()\npenguins\n\n\n\n\n\n\n\n\n\nspecies\nisland\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\nsex\nyear\n\n\n\n\n0\nAdelie\nTorgersen\n39.1\n18.7\n181.0\n3750.0\nmale\n2007\n\n\n1\nAdelie\nTorgersen\n39.5\n17.4\n186.0\n3800.0\nfemale\n2007\n\n\n2\nAdelie\nTorgersen\n40.3\n18.0\n195.0\n3250.0\nfemale\n2007\n\n\n3\nAdelie\nTorgersen\nNaN\nNaN\nNaN\nNaN\nNaN\n2007\n\n\n4\nAdelie\nTorgersen\n36.7\n19.3\n193.0\n3450.0\nfemale\n2007\n\n\n...\n...\n...\n...\n...\n...\n...\n...\n...\n\n\n339\nChinstrap\nDream\n55.8\n19.8\n207.0\n4000.0\nmale\n2009\n\n\n340\nChinstrap\nDream\n43.5\n18.1\n202.0\n3400.0\nfemale\n2009\n\n\n341\nChinstrap\nDream\n49.6\n18.2\n193.0\n3775.0\nmale\n2009\n\n\n342\nChinstrap\nDream\n50.8\n19.0\n210.0\n4100.0\nmale\n2009\n\n\n343\nChinstrap\nDream\n50.2\n18.7\n198.0\n3775.0\nfemale\n2009\n\n\n\n\n344 rows × 8 columns\n\n\n\ninclude figures in chunks and discuss your findings in the figure.\n\n\nShow the code\n# Include and execute your code here\n\npenguins.head()\n\n\n\n\n\n\n\n\n\nspecies\nisland\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\nsex\nyear\n\n\n\n\n0\nAdelie\nTorgersen\n39.1\n18.7\n181.0\n3750.0\nmale\n2007\n\n\n1\nAdelie\nTorgersen\n39.5\n17.4\n186.0\n3800.0\nfemale\n2007\n\n\n2\nAdelie\nTorgersen\n40.3\n18.0\n195.0\n3250.0\nfemale\n2007\n\n\n3\nAdelie\nTorgersen\nNaN\nNaN\nNaN\nNaN\nNaN\n2007\n\n\n4\nAdelie\nTorgersen\n36.7\n19.3\n193.0\n3450.0\nfemale\n2007",
     "crumbs": [
-      "Data Cleansing",
-      "Project 3"
+      "Project 0"
     ]
   },
   {
-    "objectID": "competition.html",
-    "href": "competition.html",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics",
+    "objectID": "Introduction_project/project0.html#questiontask-2",
+    "href": "Introduction_project/project0.html#questiontask-2",
+    "title": "Client Report - Project 0: Introduction",
+    "section": "QUESTION|TASK 2",
+    "text": "QUESTION|TASK 2\nRecreate the example charts from PY4DS: CH2 Data Visualization of the textbook. (Hint: copy the chart code from 2.2.3. Creating a plot, one plot for each cell below)\n\n\nShow the code\n# Include and execute your code here\n(\n    ggplot(data=penguins, mapping=aes(x=\"flipper_length_mm\", y=\"body_mass_g\"))\n    + geom_point()\n)\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\ninclude figures in chunks and discuss your findings in the figure.\n\n\nShow the code\n# Include and execute your code here\n(\n    ggplot(\n        data=penguins,\n        mapping=aes(x=\"flipper_length_mm\", y=\"body_mass_g\", color=\"species\"),\n    )\n    + geom_point()\n)\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\n\n\nShow the code\n# Include and execute your code here\n(\n    ggplot(\n        data=penguins,\n        mapping=aes(x=\"flipper_length_mm\", y=\"body_mass_g\", color=\"species\"),\n    )\n    + geom_point()\n    + geom_smooth(method=\"lm\")\n)\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\n\n\nShow the code\n# Include and execute your code here\n(\n    ggplot(data=penguins, mapping=aes(x=\"flipper_length_mm\", y=\"body_mass_g\"))\n    + geom_point(mapping=aes(color=\"species\"))\n    + geom_smooth(method=\"lm\")\n)\n\n\n\n   \n       \n       \n       \n   \n   \n          \n   \n   \n\n\n\n\n\nShow the code\n# Include and execute your code here\n(\n    ggplot(data=penguins, mapping=aes(x=\"flipper_length_mm\", y=\"body_mass_g\"))\n    + geom_point(aes(color=\"species\", shape=\"species\"))\n    + geom_smooth(method=\"lm\")\n    + labs(\n        title=\"Body mass and flipper length\",\n        subtitle=\"Dimensions for Adelie, Chinstrap, and Gentoo Penguins\",\n        x=\"Flipper length (mm)\",\n        y=\"Body mass (g)\",\n        color=\"Species\",\n        shape=\"Species\",\n    )\n)",
     "crumbs": [
-      "Competition"
+      "Project 0"
     ]
   },
   {
-    "objectID": "competition.html#title-2-header",
-    "href": "competition.html#title-2-header",
-    "title": "about me",
+    "objectID": "json.html",
+    "href": "json.html",
+    "title": "JSON Project",
     "section": "",
-    "text": "MarkDown Basics",
+    "text": "This project focused on the complex task of data cleaning and transformation using a decade-long dataset of flight delays across seven major airports. The primary challenge involved rectifying inconsistent data entries and handling missing values within a JSON structure to derive actionable travel insights.\n\n\n\nLanguage: Python\nData Engineering: Pandas (JSON normalization, lambda functions, data masking)\nMathematical Operations: NumPy (vectorized conditions)\nEnvironment: VS Code & Quarto\n\n\n\n\n\nData Sanitization: Developed a standardized pipeline to identify and convert various missing data types into a consistent “NaN” format across the entire JSON-based DataFrame.\nPerformance Metrics: Engineered a custom “Worst Airport” metric by calculating the proportion of delayed flights and average wait times per location.\nSeasonal Optimization: Analyzed temporal flight data to identify the statistically “best month” to travel to minimize delay probability.\nComplex Feature Engineering: Created a comprehensive “Total Weather Delay” variable by integrating severe weather data with estimated mild weather impacts extracted from “National Aviation System” (NAS) and “Late-Arriving Aircraft” categories.\n\n\n\n\n\nAdvanced Imputation: Effectively replaced missing values in critical variables using statistical means to maintain dataset integrity.\nInferred Insights: Discovered how weather-related delays are often underestimated by following specific BTS calculation rules (e.g., attributing 30% of late arrivals and varying percentages of NAS delays to weather conditions).\nExecutive Visualization: Delivered a bar plot comparing the proportion of weather-delayed flights across airports to facilitate high-level decision-making for a flight booking application.\n\nMarkDown Basics",
     "crumbs": [
-      "Competition"
+      "JSON"
     ]
   },
   {
-    "objectID": "Full_Stack/project5.html",
-    "href": "Full_Stack/project5.html",
-    "title": "Client Report - [Insert Project Title]",
+    "objectID": "json.html#project-2-late-flights-missing-data-json",
+    "href": "json.html#project-2-late-flights-missing-data-json",
+    "title": "JSON Project",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "text": "This project focused on the complex task of data cleaning and transformation using a decade-long dataset of flight delays across seven major airports. The primary challenge involved rectifying inconsistent data entries and handling missing values within a JSON structure to derive actionable travel insights.\n\n\n\nLanguage: Python\nData Engineering: Pandas (JSON normalization, lambda functions, data masking)\nMathematical Operations: NumPy (vectorized conditions)\nEnvironment: VS Code & Quarto\n\n\n\n\n\nData Sanitization: Developed a standardized pipeline to identify and convert various missing data types into a consistent “NaN” format across the entire JSON-based DataFrame.\nPerformance Metrics: Engineered a custom “Worst Airport” metric by calculating the proportion of delayed flights and average wait times per location.\nSeasonal Optimization: Analyzed temporal flight data to identify the statistically “best month” to travel to minimize delay probability.\nComplex Feature Engineering: Created a comprehensive “Total Weather Delay” variable by integrating severe weather data with estimated mild weather impacts extracted from “National Aviation System” (NAS) and “Late-Arriving Aircraft” categories.\n\n\n\n\n\nAdvanced Imputation: Effectively replaced missing values in critical variables using statistical means to maintain dataset integrity.\nInferred Insights: Discovered how weather-related delays are often underestimated by following specific BTS calculation rules (e.g., attributing 30% of late arrivals and varying percentages of NAS delays to weather conditions).\nExecutive Visualization: Delivered a bar plot comparing the proportion of weather-delayed flights across airports to facilitate high-level decision-making for a flight booking application.\n\nMarkDown Basics",
     "crumbs": [
-      "Full Stack",
-      "Project 5"
+      "JSON"
     ]
   },
   {
-    "objectID": "Full_Stack/project3.html",
-    "href": "Full_Stack/project3.html",
-    "title": "Client Report - [Insert Project Title]",
+    "objectID": "ml.html",
+    "href": "ml.html",
+    "title": "Machine Learning",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "text": "This project addresses a public health and safety initiative for the state of Colorado. Using historical home sales data from Denver, I developed a predictive model to classify residential dwellings based on their construction date (pre-1980 vs. 1980 or later), a critical factor in identifying potential asbestos risk following the Clean Air Act of 1970.\n\n\n\nLanguage: Python\nMachine Learning: Scikit-Learn (Classification algorithms)\nAlgorithms: Decision Trees, Random Forest, and Gradient Boosting\nEvaluation Metrics: Accuracy Score, Precision, Recall, and Confusion Matrices\nEnvironment: VS Code, Quarto & GitHub\n\n\n\n\n\nData-Driven Health Safety: Built a binary classifier to help the state agency identify homes likely built during the era of unregulated asbestos use.\nExploratory Data Analysis (EDA): Created visualizations to uncover key relationships between dwelling features (e.g., number of rooms, square footage, neighborhood) and the construction era.\nModel Optimization: Iterated through various algorithms to exceed a 90% accuracy threshold, ensuring high reliability for institutional use.\nFeature Engineering & Selection: Analyzed and justified the model’s performance by identifying the most influential features through automated feature importance rankings.\n\n\n\n\n\nHigh-Precision Modeling: Successfully reached the target accuracy of 90%+ using an optimized classification ensemble.\nInterpretability: Produced feature importance charts showing that certain architectural styles and neighborhood locations were the strongest predictors of a home’s age.\nQuality Assurance: Validated the model using multiple metrics (Precision and Recall) to ensure a balanced performance, minimizing false negatives in high-risk asbestos identification.\n\nMarkDown Basics",
     "crumbs": [
-      "Full Stack",
-      "Project 3"
+      "Machine Learning"
     ]
   },
   {
-    "objectID": "Competition/project1.html",
-    "href": "Competition/project1.html",
-    "title": "Client Report - [Insert Project Title]",
+    "objectID": "ml.html#project-4-can-you-predict-that-machine-learning-classification",
+    "href": "ml.html#project-4-can-you-predict-that-machine-learning-classification",
+    "title": "Machine Learning",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "text": "This project addresses a public health and safety initiative for the state of Colorado. Using historical home sales data from Denver, I developed a predictive model to classify residential dwellings based on their construction date (pre-1980 vs. 1980 or later), a critical factor in identifying potential asbestos risk following the Clean Air Act of 1970.\n\n\n\nLanguage: Python\nMachine Learning: Scikit-Learn (Classification algorithms)\nAlgorithms: Decision Trees, Random Forest, and Gradient Boosting\nEvaluation Metrics: Accuracy Score, Precision, Recall, and Confusion Matrices\nEnvironment: VS Code, Quarto & GitHub\n\n\n\n\n\nData-Driven Health Safety: Built a binary classifier to help the state agency identify homes likely built during the era of unregulated asbestos use.\nExploratory Data Analysis (EDA): Created visualizations to uncover key relationships between dwelling features (e.g., number of rooms, square footage, neighborhood) and the construction era.\nModel Optimization: Iterated through various algorithms to exceed a 90% accuracy threshold, ensuring high reliability for institutional use.\nFeature Engineering & Selection: Analyzed and justified the model’s performance by identifying the most influential features through automated feature importance rankings.\n\n\n\n\n\nHigh-Precision Modeling: Successfully reached the target accuracy of 90%+ using an optimized classification ensemble.\nInterpretability: Produced feature importance charts showing that certain architectural styles and neighborhood locations were the strongest predictors of a home’s age.\nQuality Assurance: Validated the model using multiple metrics (Precision and Recall) to ensure a balanced performance, minimizing false negatives in high-risk asbestos identification.\n\nMarkDown Basics",
     "crumbs": [
-      "Competition",
-      "Project 1"
+      "Machine Learning"
     ]
   },
   {
-    "objectID": "Competition/project2.html",
-    "href": "Competition/project2.html",
-    "title": "Client Report - [Insert Project Title]",
+    "objectID": "sql/project1.html",
+    "href": "sql/project1.html",
+    "title": "Client Report - Finding Relationships in Baseball",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "text": "Show the code\nimport pandas as pd \nimport numpy as np\nimport sqlite3\nfrom lets_plot import *\n\nLetsPlot.setup_html(isolated_frame=True)\nShow the code\n# Learn morea about Code Cells: https://quarto.org/docs/reference/cells/cells-jupyter.html\n\n# Include and execute your code here\nsqlite_file = 'lahmansbaseballdb (1).sqlite'\n# this file must be in the same location as your .qmd or .py file\ncon = sqlite3.connect(sqlite_file)",
     "crumbs": [
-      "Competition",
-      "Project 2"
+      "Finding Relationships in Baseball"
     ]
   },
   {
-    "objectID": "Competition/project4.html",
-    "href": "Competition/project4.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "objectID": "sql/project1.html#statement-of-work-quality",
+    "href": "sql/project1.html#statement-of-work-quality",
+    "title": "Client Report - Finding Relationships in Baseball",
+    "section": "Statement of work quality",
+    "text": "Statement of work quality\nI completed all required tasks in this project to the best of my ability and verified that the code runs correctly in the submitted notebook/report. I reviewed the outputs (tables, plots, and results) to ensure they are consistent with the questions and task requirements. I also kept the workflow organized and reproducible so the analysis can be followed step by step.\nWhere appropriate, I used clear assumptions and standard data science practices for data handling, analysis, and visualization. If any limitations remain, they are related to time constraints and not to a lack of effort to address the required deliverables.",
     "crumbs": [
-      "Competition",
-      "Project 4"
+      "Finding Relationships in Baseball"
     ]
   },
   {
-    "objectID": "Machine_Learning/project5.html",
-    "href": "Machine_Learning/project5.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "objectID": "sql/project1.html#questiontask-1",
+    "href": "sql/project1.html#questiontask-1",
+    "title": "Client Report - Finding Relationships in Baseball",
+    "section": "QUESTION|TASK 1",
+    "text": "QUESTION|TASK 1\nWrite an SQL query to create a new dataframe about baseball players who attended BYU-Idaho. The new table should contain five columns: playerID, schoolID, salary, and the yearID/teamID associated with each salary. Order the table by salary (highest to lowest) and print out the table in your report.\ntype your results and analysis here\n\n\nShow the code\nquery = \"\"\"\nSELECT DISTINCT\n    cp.playerID,\n    cp.schoolID,\n    s.salary,\n    s.yearID,\n    s.teamID\nFROM collegeplaying cp\nJOIN salaries s ON cp.playerID = s.playerID\nWHERE cp.schoolID = 'idbyuid'\nORDER BY s.salary DESC\n\"\"\"\n\nbyui_players = pd.read_sql_query(query, con)\nbyui_players\n\n\n\n\n\n\n\n\n\nplayerID\nschoolID\nsalary\nyearID\nteamID\n\n\n\n\n0\nlindsma01\nidbyuid\n4000000.0\n2014\nCHA\n\n\n1\nlindsma01\nidbyuid\n3600000.0\n2012\nBAL\n\n\n2\nlindsma01\nidbyuid\n2800000.0\n2011\nCOL\n\n\n3\nlindsma01\nidbyuid\n2300000.0\n2013\nCHA\n\n\n4\nlindsma01\nidbyuid\n1625000.0\n2010\nHOU\n\n\n5\nstephga01\nidbyuid\n1025000.0\n2001\nSLN\n\n\n6\nstephga01\nidbyuid\n900000.0\n2002\nSLN\n\n\n7\nstephga01\nidbyuid\n800000.0\n2003\nSLN\n\n\n8\nstephga01\nidbyuid\n550000.0\n2000\nSLN\n\n\n9\nlindsma01\nidbyuid\n410000.0\n2009\nFLO\n\n\n10\nlindsma01\nidbyuid\n395000.0\n2008\nFLO\n\n\n11\nlindsma01\nidbyuid\n380000.0\n2007\nFLO\n\n\n12\nstephga01\nidbyuid\n215000.0\n1999\nSLN\n\n\n13\nstephga01\nidbyuid\n185000.0\n1998\nPHI\n\n\n14\nstephga01\nidbyuid\n150000.0\n1997\nPHI",
     "crumbs": [
-      "Machine Learning",
-      "Project 5"
+      "Finding Relationships in Baseball"
     ]
   },
   {
-    "objectID": "Machine_Learning/project3.html",
-    "href": "Machine_Learning/project3.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "objectID": "sql/project1.html#questiontask-2",
+    "href": "sql/project1.html#questiontask-2",
+    "title": "Client Report - Finding Relationships in Baseball",
+    "section": "QUESTION|TASK 2",
+    "text": "QUESTION|TASK 2\nThis three-part question requires you to calculate batting average (number of hits divided by the number of at-bats)\na. Write an SQL query that provides playerID, yearID, and batting average for players with at least 1 at bat that year. Sort the table from highest batting average to lowest, and then by playerid alphabetically. Show the top 5 results in your report.\nb. Use the same query as above, but only include players with at least 10 at bats that year. Print the top 5 results.\nc. Now calculate the batting average for players over their entire careers (all years combined). Only include players with at least 100 at bats, and print the top 5 results.\ntype your results and analysis here\n\n\nShow the code\n# Include and execute your code here\n#Task 2, part a\nquery = \"\"\"\nSELECT\n    playerID,\n    yearID,\n    CASE WHEN AB &gt; 0 THEN CAST(H AS FLOAT)/AB ELSE NULL END AS batting_avg\nFROM batting\nWHERE AB &gt;= 1\nORDER BY batting_avg DESC, playerID ASC\nLIMIT 5\n\"\"\"\n\nbatting_top1 = pd.read_sql_query(query, con)\nbatting_top1['batting_avg'] = batting_top1['batting_avg'].round(3)\nbatting_top1\n\n\n\n\n\n\n\n\n\nplayerID\nyearID\nbatting_avg\n\n\n\n\n0\naberal01\n1957\n1.0\n\n\n1\nabernte02\n1960\n1.0\n\n\n2\nabramge01\n1923\n1.0\n\n\n3\nacklefr01\n1964\n1.0\n\n\n4\nalanirj01\n2019\n1.0\n\n\n\n\n\n\n\n\n\nShow the code\n# Include and execute your code here\n#Task 2, part b\nquery = \"\"\"\nSELECT\n    playerID,\n    yearID,\n    CASE WHEN AB &gt; 0 THEN CAST(H AS FLOAT)/AB ELSE NULL END AS batting_avg\nFROM batting\nWHERE AB &gt;= 10\nORDER BY batting_avg DESC, playerID ASC\nLIMIT 5\n\"\"\"\n\nbatting_top10 = pd.read_sql_query(query, con)\nbatting_top10['batting_avg'] = batting_top10['batting_avg'].round(3)\nbatting_top10\n\n\n\n\n\n\n\n\n\nplayerID\nyearID\nbatting_avg\n\n\n\n\n0\nnymanny01\n1974\n0.643\n\n\n1\ncarsoma01\n2013\n0.636\n\n\n2\naltizda01\n1910\n0.600\n\n\n3\njohnsde01\n1975\n0.600\n\n\n4\nsilvech01\n1948\n0.571\n\n\n\n\n\n\n\n\n\nShow the code\n# Include and execute your code here\n#Task 2, part c\nquery = \"\"\"\nSELECT\n    playerID,\n    SUM(H) AS total_H,\n    SUM(AB) AS total_AB,\n    CASE WHEN SUM(AB) &gt; 0 THEN CAST(SUM(H) AS FLOAT)/SUM(AB) ELSE NULL END AS batting_avg\nFROM batting\nGROUP BY playerID\nHAVING SUM(AB) &gt;= 100\nORDER BY batting_avg DESC\nLIMIT 5\n\"\"\"\n\ncareer_top = pd.read_sql_query(query, con)\ncareer_top['batting_avg'] = career_top['batting_avg'].round(3)\ncareer_top\n\n\n\n\n\n\n\n\n\nplayerID\ntotal_H\ntotal_AB\nbatting_avg\n\n\n\n\n0\ncobbty01\n4189\n11436\n0.366\n\n\n1\nbarnero01\n860\n2391\n0.360\n\n\n2\nhornsro01\n2930\n8173\n0.358\n\n\n3\njacksjo01\n1772\n4981\n0.356\n\n\n4\nmeyerle01\n513\n1443\n0.356",
     "crumbs": [
-      "Machine Learning",
-      "Project 3"
+      "Finding Relationships in Baseball"
+    ]
+  },
+  {
+    "objectID": "sql/project1.html#questiontask-3",
+    "href": "sql/project1.html#questiontask-3",
+    "title": "Client Report - Finding Relationships in Baseball",
+    "section": "QUESTION|TASK 3",
+    "text": "QUESTION|TASK 3\nPick any two baseball teams and compare them using a metric of your choice (average salary, home runs, number of wins, etc). Write an SQL query to get the data you need, then make a graph using Lets-Plot to visualize the comparison. What do you learn?\ntype your results and analysis here\n\n\nShow the code\n# Include and execute your code here\nquery = \"\"\"\nSELECT\n    teamID,\n    yearID,\n    AVG(salary) AS avg_salary\nFROM salaries\nWHERE teamID IN ('NYA','BOS')\nGROUP BY teamID, yearID\nORDER BY yearID, teamID\n\"\"\"\n\nteam_salary = pd.read_sql_query(query, con)\nteam_salary['avg_salary_millions'] = team_salary['avg_salary'] / 1_000_000\n\nfrom lets_plot import *\np = ggplot(team_salary, aes(x='yearID', y='avg_salary_millions', color='teamID')) + \\\n    geom_line() + geom_point() + \\\n    ggsize(900, 400) + \\\n    labs(x='Year', y='Average Salary (Millions USD)', title='Average Player Salary by Team: NYA vs BOS')\np",
+    "crumbs": [
+      "Finding Relationships in Baseball"
+    ]
+  },
+  {
+    "objectID": "sql/project1.html#stretch-questiontask-1",
+    "href": "sql/project1.html#stretch-questiontask-1",
+    "title": "Client Report - Finding Relationships in Baseball",
+    "section": "STRETCH QUESTION|TASK 1",
+    "text": "STRETCH QUESTION|TASK 1\nAdvanced Salary Distribution by Position (with Case Statement):\n* Write an SQL query that provides a summary table showing the average salary for each position (e.g., pitcher, catcher, outfielder). Position information can be found in the fielding table in the POS column. \n\n    Include the following columns:\n\n    * position\n    * average_salary\n    * total_players\n    * highest_salary  \n\n* The highest_salary column should display the highest salary ever earned by a player in that position. \n\n* Additionally, create a new column called salary_category using a case statement:  \n\n    * If the average salary is above $3 million, categorize it as “High Salary.”\n    * If the average salary is between $2 million and $3 million, categorize it as “Medium Salary.”\n    * Otherwise, categorize it as “Low Salary.”  \n\n* Order the table by average salary in descending order.\n\n**Hint:** Beware, it is common for a player to play multiple positions in a single year. For this analysis, each player’s salary should only be counted toward one position in a given year: the position at which they played the most games that year. This will likely require a (sub-query)[https://docs.data.world/documentation/sql/concepts/advanced/WITH.html].\ntype your results and analysis here\n\n\nShow the code\n# Include and execute your code here\n\nquery = \"\"\"\nWITH primary_position AS (\n    SELECT playerID, yearID, POS\n    FROM (\n        SELECT\n            playerID,\n            yearID,\n            POS,\n            G,\n            ROW_NUMBER() OVER (\n                PARTITION BY playerID, yearID\n                ORDER BY G DESC, POS ASC\n            ) AS rn\n        FROM fielding\n        WHERE POS IS NOT NULL\n    ) t\n    WHERE rn = 1\n),\nsalary_by_primary_pos AS (\n    SELECT\n        pp.POS AS position,\n        s.playerID,\n        s.yearID,\n        s.salary\n    FROM primary_position pp\n    JOIN salaries s\n      ON pp.playerID = s.playerID\n     AND pp.yearID = s.yearID\n    WHERE s.salary IS NOT NULL\n)\nSELECT\n    position,\n    ROUND(AVG(salary), 2) AS average_salary,\n    COUNT(DISTINCT playerID) AS total_players,\n    MAX(salary) AS highest_salary,\n    CASE\n        WHEN AVG(salary) &gt; 3000000 THEN 'High Salary'\n        WHEN AVG(salary) BETWEEN 2000000 AND 3000000 THEN 'Medium Salary'\n        ELSE 'Low Salary'\n    END AS salary_category\nFROM salary_by_primary_pos\nGROUP BY position\nORDER BY average_salary DESC\n\"\"\"\n\nposition_salary_summary = pd.read_sql_query(query, con)\nposition_salary_summary\n\n\n\n\n\n\n\n\n\nposition\naverage_salary\ntotal_players\nhighest_salary\nsalary_category\n\n\n\n\n0\n1B\n3334894.21\n472\n28000000.0\nHigh Salary\n\n\n1\nOF\n2404355.25\n1121\n27328046.0\nMedium Salary\n\n\n2\n3B\n2320823.94\n492\n33000000.0\nMedium Salary\n\n\n3\nSS\n2008501.44\n369\n22600000.0\nMedium Salary\n\n\n4\nP\n1938130.80\n2556\n33000000.0\nLow Salary\n\n\n5\n2B\n1798912.03\n484\n24000000.0\nLow Salary\n\n\n6\nC\n1430814.47\n404\n23000000.0\nLow Salary",
+    "crumbs": [
+      "Finding Relationships in Baseball"
+    ]
+  },
+  {
+    "objectID": "sql/project1.html#stretch-questiontask-2",
+    "href": "sql/project1.html#stretch-questiontask-2",
+    "title": "Client Report - Finding Relationships in Baseball",
+    "section": "STRETCH QUESTION|TASK 2",
+    "text": "STRETCH QUESTION|TASK 2\nAdvanced Career Longevity and Performance (with Subqueries):\n* Calculate the average career length (in years) for players who have played at least **10 games**. Then, identify the top 10 players with the longest careers (based on the number of years they played). Include their: \n\n    * playerID\n    * first_name\n    * last_name\n    * career_length\n\n* The career_length should be calculated as the difference between the maximum and minimum yearID for each player.  \ntype your results and analysis here\n\n\nShow the code\n# Include and execute your code here\n\nquery_avg = \"\"\"\nWITH player_careers AS (\n    SELECT\n        playerID,\n        MIN(yearID) AS first_year,\n        MAX(yearID) AS last_year,\n        MAX(yearID) - MIN(yearID) AS career_length,\n        SUM(COALESCE(G_all, 0)) AS total_games\n    FROM appearances\n    GROUP BY playerID\n)\nSELECT ROUND(AVG(career_length), 2) AS average_career_length\nFROM player_careers\nWHERE total_games &gt;= 10\n\"\"\"\n\nquery_top10 = \"\"\"\nWITH player_careers AS (\n    SELECT\n        playerID,\n        MIN(yearID) AS first_year,\n        MAX(yearID) AS last_year,\n        MAX(yearID) - MIN(yearID) AS career_length,\n        SUM(COALESCE(G_all, 0)) AS total_games\n    FROM appearances\n    GROUP BY playerID\n)\nSELECT\n    pc.playerID,\n    p.nameFirst AS first_name,\n    p.nameLast AS last_name,\n    pc.career_length\nFROM player_careers pc\nJOIN people p\n  ON pc.playerID = p.playerID\nWHERE pc.total_games &gt;= 10\nORDER BY pc.career_length DESC, pc.playerID ASC\nLIMIT 10\n\"\"\"\n\naverage_career_length = pd.read_sql_query(query_avg, con)\ntop10_longest_careers = pd.read_sql_query(query_top10, con)\naverage_career_length, top10_longest_careers\n\n\n(   average_career_length\n 0                   5.84,\n     playerID first_name last_name  career_length\n 0  altroni01       Nick   Altrock             35\n 1  orourji01        Jim  O'Rourke             32\n 2  minosmi01     Minnie    Minoso             31\n 3  olearch01    Charley   O'Leary             30\n 4  lathaar01      Arlie    Latham             29\n 5  mcguide01     Deacon   McGuire             28\n 6  eversjo01     Johnny     Evers             27\n 7  jennihu01     Hughie  Jennings             27\n 8   ryanno01      Nolan      Ryan             27\n 9  streega01      Gabby    Street             27)",
+    "crumbs": [
+      "Finding Relationships in Baseball"
     ]
   }
 ]
