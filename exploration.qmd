@@ -1,10 +1,28 @@
 ---
-title: "about me"
-subtitle: "my data science portfolio"
+title: "Data Exploration"
+subtitle: "Project summary"
 # use quarto markdown to 
 ---
 
-# Title 1 Header
-## Title 2 Header
+## Project 1: What’s in a Name? (Historical Name Trends)
+
+This project explores the evolution of naming practices in the United States using a historical dataset. The analysis focuses on how cultural shifts, religious influences, and modern media (like movies) impact the popularity of specific names over time.
+
+### 🛠️ Technologies & Tools
+* **Language:** Python
+* **Data Analysis:** Pandas (Querying, Filtering, Subsetting)
+* **Visualization:** Lets-Plot / Matplotlib
+* **Reporting:** Quarto & Markdown
+
+### 🎯 Project Objectives
+* **Historical Comparison:** Analyzed personal name popularity at year of birth versus its historical usage.
+* **Demographic Inference:** Used data distributions to estimate the age of individuals based on their names (e.g., the "Brittany" name peak).
+* **Trend Analysis:** Compared the lifecycle of traditional Christian names (Mary, Martha, Peter, Paul) from 1920 to 2000 in a single comparative visualization.
+* **Pop Culture Impact:** Evaluated the correlation between famous movie releases and sudden spikes in unique name usage.
+
+### 📈 Key Results
+* **Advanced Filtering:** Utilized complex `.query()` methods to isolate specific timeframes and name groups.
+* **Annotated Visuals:** Produced professional charts featuring reference marks (annotations) to highlight specific historical or cinematic events.
+* **Data Storytelling:** Translated raw CSV data into insights regarding how "name pools" transition from traditional religious roots to modern cultural influences.
 
 [MarkDown Basics](https://quarto.org/docs/authoring/markdown-basics.html#links-images)

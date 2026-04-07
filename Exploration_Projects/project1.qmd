@@ -1,0 +1,218 @@
+---
+title: "Client Report - What's in a Name?"
+subtitle: "Course DS 250"
+author: "Jorge Córdova"
+format:
+  html:
+    self-contained: true
+    page-layout: full
+    title-block-banner: true
+    toc: true
+    toc-depth: 3
+    toc-location: body
+    number-sections: false
+    html-math-method: katex
+    code-fold: true
+    code-summary: "Show the code"
+    code-overflow: wrap
+    code-copy: hover
+    code-tools:
+        source: false
+        toggle: true
+        caption: See code
+execute: 
+  warning: false
+    
+---
+
+## Work Quality Statement:
+__I completed all required tasks in the assignment and my code runs end-to-end without errors. I reviewed my plots and written explanations to make sure they directly answer each question, and I believe the submission meets the requirements.__
+
+```{python}
+import pandas as pd
+import numpy as np
+from lets_plot import *
+
+LetsPlot.setup_html(isolated_frame=True)
+```
+
+
+## Project Notes
+
+__For Project 1 the answer to each question should include a chart **and** a written response. The years labels on your charts should not include a comma. At least **two** of your charts must include reference marks.__  
+
+```{python}
+# Learn morea about Code Cells: https://quarto.org/docs/reference/cells/cells-jupyter.html
+
+# Include and execute your code here
+df = pd.read_csv("https://github.com/byuidatascience/data4names/raw/master/data-raw/names_year/names_year.csv")
+```
+
+## QUESTION|TASK 1
+
+__How does your name at your birth year compare to its use historically?__
+
+_type your results and analysis here_
+
+```{python}
+# Include and execute your code here
+name_subset = df[df.name == "Jorge"]
+
+birth_year_data = name_subset[name_subset.year == 2002]
+
+value_at_birth = birth_year_data['Total'].values[0] if not birth_year_data.empty else 0
+
+(ggplot(name_subset, aes(x="year", y="Total")) + 
+  geom_line(color="green", size=1) + 
+  geom_vline(xintercept=2002, color="red", linetype="dashed", size=1) +
+  geom_text(x=2002, y=value_at_birth, label="Birth Year: 2002", color="red", hjust=1, vjust=0) +
+  labs(
+    title='Historical Usage of the Name "Jorge"', 
+    subtitle=f'Comparing usage in 2002 to history',
+    x='Year', 
+    y='Total Count'
+  ) +
+  scale_x_continuous(format='d') +
+  theme_minimal()
+)
+
+```
+
+**Analysis:**
+The chart illustrates the historical popularity of my name, Jorge. The vertical dashed line marks my birth year (2002). We can see that around my birth year there was an increase in the number of newborns named “Jorge” compared to the previous years.
+
+
+## QUESTION|TASK 2
+
+__If you talked to someone named Brittany on the phone, what is your guess of his or her age? What ages would you not guess?__
+
+_type your results and analysis here_
+
+```{python}
+# Include and execute your code here
+brittany_data = df[df.name == "Brittany"]
+
+(ggplot(brittany_data, aes(x="year", y="Total")) + 
+  geom_area(fill="blue", alpha=0.5) +
+  geom_line(color="blue", size=1) + 
+  labs(
+    title='Popularity of the Name "Brittany"', 
+    subtitle='Usage over time',
+    x='Year', 
+    y='Total Count'
+  ) +
+  scale_x_continuous(format='d') +
+  theme_minimal()
+) 
+
+```
+
+**Analysis:**
+Based on the chart, the name "Brittany" shows an increase in popularity around 1990. If I spoke to a Brittany on the phone, I would guess she was born around that year, assuming a 2 year radius, I would say she is between 32 and 36 years old. A bad guess would be years far away from 1990, meaning Brittany probably isn’t under her 20s nor older than her 50s.
+
+## QUESTION|TASK 3
+
+__Mary, Martha, Peter, and Paul are all Christian names. From 1920 - 2000, compare the name usage of each of the four names in a single chart. What trends do you notice?__
+
+_type your results and analysis here_
+
+```{python}
+# Include and execute your code here
+names = ["Mary", "Martha", "Peter", "Paul"]
+
+subset = df[(df['name'].isin(names)) & (df['year'] >= 1920 ) & (df['year'] <= 2000)]
+
+
+(ggplot(subset, aes(x="year", y="Total", color="name")) +
+  geom_line() +
+  labs(title="Christian Names Usage (1920-2000)", x="Year", y="Count") +
+  scale_x_continuous(format="d") 
+)
+```
+
+**Analysis:**
+We can see that historically, the most common name among the given Christian names was Mary, by a large difference. However, since the 1960s there has been a strong decrease in the use of these names, especially Mary, which went down from nearly 50,000 newborns around the 1950s to less than 10,000 in 2000.
+
+
+## QUESTION|TASK 4
+
+__Think of a unique name from a famous movie. Plot the usage of that name and see how changes line up with the movie release. Does it look like the movie had an effect on usage?__  
+
+_type your results and analysis here_
+
+```{python}
+# Include and execute your code here
+character_name = 'Jack'
+release_year = 1997
+
+character_subset = df[df['name'] == character_name]
+
+release_year_data = character_subset[character_subset.year == release_year]
+
+value_at_release = release_year_data['Total'].values[0] if not release_year_data.empty else 0
+
+(ggplot(character_subset, aes(x="year", y="Total")) +
+  geom_line(color="gray", size=1) +
+  geom_vline(xintercept=release_year, color="red", linetype="dashed", size=1) +
+  geom_text(x = release_year, y=value_at_release, label=f'Released year: {release_year}', color="red", hjust=1, vjust=0 ) +
+  labs(title=f"Usage of '{character_name}' and Titanic Release ({release_year})", x="Year", y="Count") +
+  scale_x_continuous(format="d")
+)
+
+```
+
+**Analysis:**
+In the chart we can see that the name “Jack” was very common even before the release of the movie “Titanic” (1997), especially between the 1920s and 1940s. Until the 1960s, when the name experienced a decrease in the frequency of use. Some years before the movie release, the name “Jack” was becoming popular again, and this popularity became stronger in 1997 with the release of “Titanic”.
+
+---
+
+## STRETCH QUESTION|TASK 1
+
+__Reproduce the chart Elliot using the data from the `names_year.csv` file.__ 
+
+_type your results and analysis here_
+
+```{python}
+# Include and execute your code here
+name = "Elliot"
+elliot_subset = df[(df['name'] == name) & (df['year'] > 1950)]
+
+data = pd.DataFrame({
+    "year": [1982, 1985, 2002],
+    "label": ["E.T Released", "Second Release", "Third Release"],
+    "hjust": [1, 0, 0]
+})
+
+y_top = elliot_subset["Total"].max()
+
+(
+    ggplot(elliot_subset, aes(x="year", y="Total"))
+    + geom_line(color="blue", size=1)
+    + geom_vline(
+        data=data,
+        mapping = aes(xintercept="year"),
+        color="red",
+        linetype="dashed",
+        size=1
+    )
+    + geom_text(
+        data=data,
+        mapping=aes(x="year", label="label", hjust="hjust"),
+        y=y_top,
+        vjust=0
+    )
+    + labs(
+        title="Elliot... What?",
+        x="year",
+        y="Total",
+        color="name"
+    )
+    + scale_x_continuous(format="d")
+)
+
+```
+
+**Analysis:**
+We can see a strong increase in the usage of the name "Elliot" after the release of the first ET movie (1982). The strongest increase in popularity occurred after the third ET movie release (2002), when the name continued to rise almost every year.
+
+---

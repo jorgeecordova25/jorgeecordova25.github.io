@@ -2,15 +2,15 @@ project:
   type: website
 
 website:
-  title: "Your_Name - Data Science Portfolio"
+  title: "Jorge Córdova - Data Science Portfolio"
   favicon: Images/favicon.png
   back-to-top-navigation: true
-  repo-url: https://github.com/username/username.github.io
+  repo-url: https://github.com/jorgeecordova25/jorgeecordova25.github.io.git
   #repo-actions: [issue] #if you want to allow others to report issues on your site uncomment this line
 
   page-footer: 
     border: true
-    left: "Your_Name 2024©"
+    left: "Jorge Córdova 2026©"
     right: 
       - icon: linkedin
         href: Your_LinkedIn_URL
@@ -40,27 +40,15 @@ website:
   # comment out any of the sections below to turn off the sidebar
 
   sidebar: 
-    - title: "Data Cleansing"
+    - title: "Introduction"
       style: "docked"
       background: light
       contents:
-        - text: "Data Cleansing"
-          file: cleansing.qmd
+        - text: "Introduction"
+          file: introduction.qmd
         - text: "---"
-        - text: "Project 1"
-          file: Cleansing_Projects/project1.qmd
-        - text: "---"
-        - text: "Project 2"
-          file: Cleansing_Projects/project2.qmd
-        - text: "---"
-        - text: "Project 3"
-          file: Cleansing_Projects/project3.qmd
-        - text: "---"
-        - text: "Project 4"
-          file: Cleansing_Projects/project4.qmd
-        - text: "---"
-        - text: "Project 5"
-          file: Cleansing_Projects/project5.qmd
+        - text: "Project 0"
+          file: Introduction_project/project0.qmd
         - text: "---"
     - title: "Data Exploration"
       style: "docked"
@@ -69,42 +57,28 @@ website:
         - text: "Data Exploration"
           file: exploration.qmd
         - text: "---"
-        - text: "Project 1"
+        - text: "What’s in a Name?"
           file: Exploration_Projects/project1.qmd
         - text: "---"
-        - text: "Project 2"
-          file: Exploration_Projects/project2.qmd
-        - text: "---"
-        - text: "Project 3"
-          file: Exploration_Projects/project3.qmd
-        - text: "---"
-        - text: "Project 4"
-          file: Exploration_Projects/project4.qmd
-        - text: "---"
-        - text: "Project 5"
-          file: Exploration_Projects/project5.qmd
-        - text: "---"
-    - title: "Story Telling"
+    - title: "JSON"
       style: "docked"
       background: light
       contents:
-        - text: "Story Telling"
-          file: story_telling.qmd
+        - text: "JSON"
+          file: json.qmd
         - text: "---"
-        - text: "Project 1"
-          file: Story_Telling/project1.qmd
+        - text: "Late Flights & Missing Data (JSON)"
+          file: json/project1.qmd
         - text: "---"
-        - text: "Project 2"
-          file: Story_Telling/project2.qmd
+    - title: "SQL"
+      style: "docked"
+      background: light
+      contents:
+        - text: "SQL"
+          file: sql.qmd
         - text: "---"
-        - text: "Project 3"
-          file: Story_Telling/project3.qmd
-        - text: "---"
-        - text: "Project 4"
-          file: Story_Telling/project4.qmd
-        - text: "---"
-        - text: "Project 5"
-          file: Story_Telling/project5.qmd
+        - text: "Finding Relationships in Baseball"
+          file: sql/project1.qmd
         - text: "---"
     - title: "Machine Learning"
       style: "docked"
@@ -113,64 +87,18 @@ website:
         - text: "Machine Learning"
           file: ml.qmd
         - text: "---"
-        - text: "Project 1"
+        - text: "Can You Predict That?"
           file: Machine_Learning/project1.qmd
         - text: "---"
-        - text: "Project 2"
-          file: Machine_Learning/project2.qmd
-        - text: "---"
-        - text: "Project 3"
-          file: Machine_Learning/project3.qmd
-        - text: "---"
-        - text: "Project 4"
-          file: Machine_Learning/project4.qmd
-        - text: "---"
-        - text: "Project 5"
-          file: Machine_Learning/project5.qmd
-        - text: "---"
-    - title: "Full Stack"
+    - title: "Cleaning Data"
       style: "docked"
       background: light
       contents:
-        - text: "Full Stack"
-          file: full_stack.qmd
+        - text: "Cleaning Data"
+          file: cleansing.qmd
         - text: "---"
-        - text: "Project 1"
-          file: Full_Stack/project1.qmd
-        - text: "---"
-        - text: "Project 2"
-          file: Full_Stack/project2.qmd
-        - text: "---"
-        - text: "Project 3"
-          file: Full_Stack/project3.qmd
-        - text: "---"
-        - text: "Project 4"
-          file: Full_Stack/project4.qmd
-        - text: "---"
-        - text: "Project 5"
-          file: Full_Stack/project5.qmd
-        - text: "---"
-    - title: "Competition"
-      style: "docked"
-      background: light
-      contents:
-        - text: "Competition"
-          file: competition.qmd
-        - text: "---"
-        - text: "Project 1"
-          file: Competition/project1.qmd
-        - text: "---"
-        - text: "Project 2"
-          file: Competition/project2.qmd
-        - text: "---"
-        - text: "Project 3"
-          file: Competition/project3.qmd
-        - text: "---"
-        - text: "Project 4"
-          file: Competition/project4.qmd
-        - text: "---"
-        - text: "Project 5"
-          file: Competition/project5.qmd
+        - text: "The War with Star Wars"
+          file: Cleaning_Data_Project/project1.qmd
         - text: "---"
   
 format:  

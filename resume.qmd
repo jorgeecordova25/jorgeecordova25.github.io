@@ -1,91 +1,73 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Jorge Cordova's CV
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+# [cite_start]Jorge Cordova [cite: 1]
+Computer Science student, Web Developer, and 3D Design enthusiast.
 
 <div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
-<!-- | <a href="https://yourusername.github.io/datascience_portfolio/gh-pages/resume.pdf">Download PDF</a> -->
-| <a href="https://github.com/byuidatascience/datascience_portfolio/blob/gh-pages/resume.pdf">Download PDF</a>
+[cite_start]<a href="mailto:jorgeecordova25@gmail.com">jorgeecordova25@gmail.com</a> [cite: 2]
+| [cite_start]<a href="https://www.linkedin.com/in/jorge-cordova-9a74b4188/">My LinkedIn</a> [cite: 2]
+| <a href="https://github.com/jorgeecordova25/jorgeecordova25.github.io.git/blob/gh-pages/resume.pdf">Download PDF</a>
 </div>
-
 
 ## Currently
 
-Standing on the shoulders of giants
+Seeking opportunities to apply Computer Science and Data Science skills in professional environments.
 
 ### Specialized in
 
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
-
+[cite_start]Web development (HTML/CSS, JavaScript) [cite: 18] [cite_start]and 3D modeling/printing[cite: 10, 12].
 
 ### Research interests
 
-Cooling, power series, optics, alchemy, planetary motions, apples.
-
+[cite_start]Data Science [cite: 6][cite_start], Cyber Security [cite: 7][cite_start], and production workflow optimization[cite: 11].
 
 ## Education
 
-`1654-1660`
-__The King's School, Grantham.__
+[cite_start]`August 2021 - September 2024` [cite: 4]
+[cite_start]__Brigham Young University - Idaho__, Rexburg, ID [cite: 4]
 
-`June 1661 - now`
-__Trinity College, Cambridge__
+- [cite_start]Bachelor's of Science in Computer Science [cite: 4]
+- [cite_start]Minor: Data Science [cite: 6]
+- [cite_start]GPA: 3.8 [cite: 5]
 
-- Sizar
+## Activities & Skills
 
-`1667 - death`
-__Trinity College, Cambridge__
+`2021 - 2024`
+[cite_start]Member, *Data Science Society* [cite: 8]
 
-- Fellow
+### Technical Skills
 
+- [cite_start]**Programming:** JavaScript, HTML/CSS [cite: 18]
+- [cite_start]**Developer Tools:** Git, Docker, TravisCI, Google Cloud Platform [cite: 19]
+- [cite_start]**Software:** AutoCAD, Sony Vegas Pro 13, Filmora 11, Ableton Live 12, MATLAB [cite: 17]
+- [cite_start]**Languages:** English, Spanish, learning Chinese [cite: 16]
 
+## Projects
 
-## Awards
+### 3D Printing & Design
 
-`2012`
-President, *Royal Society*, London, UK
+[cite_start]`2021 - 2023` [cite: 10]
+[cite_start]__Plastic Empire__, Piura, Peru [cite: 10]
 
-Associate, *French Academy of Science*, Paris, France
+- [cite_start]Co-founded a 3D printing business, designing solutions with AutoCAD[cite: 12].
+- [cite_start]Collaborated with architecture students to deliver 30+ high-quality models[cite: 10].
+- [cite_start]Optimized production workflows to reduce turnaround times by 25%[cite: 11].
 
+### Content Creation
 
+[cite_start]`2017 - 2019` [cite: 13]
+[cite_start]__Plastic Empire__, Remote [cite: 13]
 
-## Publications
+- [cite_start]Video Editor and Script Developer for 20+ videos[cite: 13, 14].
+- [cite_start]Improved viewer retention by 30% through enhanced audio and visual quality[cite: 13].
+- [cite_start]Achieved a 25% growth in subscriber count through structured storytelling[cite: 14].
 
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
+## Experience
 
-### Journals
+[cite_start]`March 2024 - April 2024` [cite: 21]
+[cite_start]__Center Square Custodian__, BYU-Idaho [cite: 21]
 
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
-
-
-## Occupation
-
-`1600`
-__Royal Mint__, London
-
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
-
-
-
-<!-- ### Footer
-
-Last updated: May 2013 -->
+- [cite_start]Managed inventory and supplies to ensure 100% availability of materials[cite: 21].
+- [cite_start]Enhanced operational effectiveness through strong organizational skills[cite: 21].

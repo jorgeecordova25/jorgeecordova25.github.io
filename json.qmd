@@ -1,0 +1,28 @@
+---
+title: "JSON Project"
+subtitle: "Project Summary"
+# use quarto markdown to 
+---
+
+## Project 2: Late Flights & Missing Data (JSON)
+
+This project focused on the complex task of data cleaning and transformation using a decade-long dataset of flight delays across seven major airports. The primary challenge involved rectifying inconsistent data entries and handling missing values within a JSON structure to derive actionable travel insights.
+
+### 🛠️ Technologies & Tools
+* **Language:** Python
+* **Data Engineering:** Pandas (JSON normalization, lambda functions, data masking)
+* **Mathematical Operations:** NumPy (vectorized conditions)
+* **Environment:** VS Code & Quarto
+
+### 🎯 Project Objectives
+* **Data Sanitization:** Developed a standardized pipeline to identify and convert various missing data types into a consistent "NaN" format across the entire JSON-based DataFrame.
+* **Performance Metrics:** Engineered a custom "Worst Airport" metric by calculating the proportion of delayed flights and average wait times per location.
+* **Seasonal Optimization:** Analyzed temporal flight data to identify the statistically "best month" to travel to minimize delay probability.
+* **Complex Feature Engineering:** Created a comprehensive "Total Weather Delay" variable by integrating severe weather data with estimated mild weather impacts extracted from "National Aviation System" (NAS) and "Late-Arriving Aircraft" categories.
+
+### 📈 Key Results
+* **Advanced Imputation:** Effectively replaced missing values in critical variables using statistical means to maintain dataset integrity.
+* **Inferred Insights:** Discovered how weather-related delays are often underestimated by following specific BTS calculation rules (e.g., attributing 30% of late arrivals and varying percentages of NAS delays to weather conditions).
+* **Executive Visualization:** Delivered a bar plot comparing the proportion of weather-delayed flights across airports to facilitate high-level decision-making for a flight booking application.
+
+[MarkDown Basics](https://quarto.org/docs/authoring/markdown-basics.html#links-images)

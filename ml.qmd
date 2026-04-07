@@ -1,11 +1,30 @@
 ---
-title: "about me"
-subtitle: "my data science portfolio"
+title: "Machine Learning"
+subtitle: "Project summary"
 # use quarto markdown to 
 ---
 
-# Title 1 Header
-## Title 2 Header
+## Project 4: Can You Predict That? (Machine Learning Classification)
+
+This project addresses a public health and safety initiative for the state of Colorado. Using historical home sales data from Denver, I developed a predictive model to classify residential dwellings based on their construction date (pre-1980 vs. 1980 or later), a critical factor in identifying potential asbestos risk following the Clean Air Act of 1970.
+
+### 🛠️ Technologies & Tools
+* **Language:** Python
+* **Machine Learning:** Scikit-Learn (Classification algorithms)
+* **Algorithms:** Decision Trees, Random Forest, and Gradient Boosting
+* **Evaluation Metrics:** Accuracy Score, Precision, Recall, and Confusion Matrices
+* **Environment:** VS Code, Quarto & GitHub
+
+### 🎯 Project Objectives
+* **Data-Driven Health Safety:** Built a binary classifier to help the state agency identify homes likely built during the era of unregulated asbestos use.
+* **Exploratory Data Analysis (EDA):** Created visualizations to uncover key relationships between dwelling features (e.g., number of rooms, square footage, neighborhood) and the construction era.
+* **Model Optimization:** Iterated through various algorithms to exceed a 90% accuracy threshold, ensuring high reliability for institutional use.
+* **Feature Engineering & Selection:** Analyzed and justified the model's performance by identifying the most influential features through automated feature importance rankings.
+
+### 📈 Key Results
+* **High-Precision Modeling:** Successfully reached the target accuracy of 90%+ using an optimized classification ensemble.
+* **Interpretability:** Produced feature importance charts showing that certain architectural styles and neighborhood locations were the strongest predictors of a home's age.
+* **Quality Assurance:** Validated the model using multiple metrics (Precision and Recall) to ensure a balanced performance, minimizing false negatives in high-risk asbestos identification.
 
 [MarkDown Basics](https://quarto.org/docs/authoring/markdown-basics.html#links-images)
 

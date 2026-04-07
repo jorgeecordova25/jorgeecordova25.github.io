@@ -1,0 +1,27 @@
+---
+title: "Course Introduction"
+subtitle: "Introduction project summary"
+# use quarto markdown to 
+---
+## Project 0: Data Science Fundamentals & Environment Setup
+
+This foundational project focused on establishing a robust data science development environment and applying initial data visualization concepts, serving as the technical baseline for the entire program.
+
+### 🛠️ Technologies & Tools
+* **Language:** Python
+* **Environment:** Visual Studio Code (VS Code)
+* **Dynamic Reporting:** Quarto & Markdown
+* **Core Libraries:** Pandas (Data Handling) and Plotnine/Matplotlib (Visualization)
+
+### 🎯 Project Objectives
+* **Environment Configuration:** Prepared VS Code for professional data science programming and technical document rendering.
+* **Data Exploration:** Analyzed the `penguins` dataset to understand data structures and cleaning workflows in Python.
+* **Statistical Visualization:** Recreated complex charts and descriptive tables following the "Whole Game" data science workflow.
+* **Reproducible Reporting:** Developed a professional HTML report using **Quarto**, integrating executable code blocks with detailed Markdown explanations.
+
+### 📈 Key Results
+* **Workflow Automation:** Successfully implemented reproducible workflows for data rendering and publishing.
+* **Technical Communication:** Mastered Markdown syntax for presenting complex technical findings to stakeholders.
+* **Analytical Skills:** Demonstrated proficiency in visualizing both categorical and numerical variables through scatter plots and data tables.
+
+[MarkDown Basics](https://quarto.org/docs/authoring/markdown-basics.html#links-images)

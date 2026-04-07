@@ -1,10 +1,29 @@
 ---
-title: "about me"
-subtitle: "my data science portfolio"
+title: "Cleaning Data"
+subtitle: "Project summary"
 # use quarto markdown to 
 ---
 
-# Title 1 Header
-## Title 2 Header
+## Project 5: The War with Star Wars (Survey Data & Prediction)
+
+Survey data is notoriously difficult to process due to various question formats and "tidy data" challenges. In this project, I processed a dataset from a 2014 FiveThirtyEight survey of over 1,000 respondents to determine if Star Wars movie preferences and demographics can predict an individual's income level.
+
+### 🛠️ Technologies & Tools
+* **Language:** Python
+* **Data Wrangling:** Pandas (Tidy Data, complex filtering)
+* **Text Processing:** Regular Expressions (Regex) for column renaming and cleaning
+* **Machine Learning:** Scikit-Learn (Classification)
+* **Reporting:** Quarto & GitHub
+
+### 🎯 Project Objectives
+* **Complex Data Cleaning:** Refactored a raw, messy survey dataset by shortening and standardizing column names for improved programmatic access.
+* **Tidy Data Implementation:** Filtered respondents to include only those who had seen at least one film and converted categorical ranges (Age, Education, Income) into numerical formats.
+* **Validation through Replication:** Validated the GitHub dataset's integrity by successfully recreating two original visualizations from the FiveThirtyEight article.
+* **Predictive Modeling:** Built and evaluated a machine learning model to predict whether a respondent’s annual income exceeds $50k based on their movie-related responses and demographic data.
+
+### 📈 Key Results
+* **Regex Mastery:** Efficiently handled "check-all-that-apply" and "multiple choice" survey structures using advanced string and regular expression techniques.
+* **Feature Encoding:** Implemented one-hot encoding for categorical variables and handled missing values to prepare the dataset for institutional-grade ML modeling.
+* **Accuracy Benchmarking:** Achieved a reliable predictive model, demonstrating the potential correlation between cultural preferences and socioeconomic indicators.
 
 [MarkDown Basics](https://quarto.org/docs/authoring/markdown-basics.html#links-images)

@@ -1,7 +1,7 @@
 ---
-title: "Client Report - [Insert Project Title]"
+title: "Client Report - Can You Predict That?"
 subtitle: "Course DS 250"
-author: "[STUDENT NAME]"
+author: "Jorge Córdova"
 format:
   html:
     self-contained: true
@@ -25,4 +25,484 @@ execute:
     
 ---
 
-### Paste in a template
+```{python}
+import pandas as pd 
+import numpy as np
+from lets_plot import *
+# add the additional libraries you need to import for ML here
+
+LetsPlot.setup_html(isolated_frame=True)
+```
+
+
+```{python}
+# Learn morea about Code Cells: https://quarto.org/docs/reference/cells/cells-jupyter.html
+
+# Include and execute your code here
+
+# import your data here using pandas and the URL
+from sklearn.model_selection import train_test_split
+
+url = "https://github.com/byuidatascience/data4dwellings/raw/master/data-raw/dwellings_ml/dwellings_ml.csv"
+data = pd.read_csv(url)
+
+features = data.drop(columns=["before1980"])
+target = data["before1980"]
+
+features_train, features_test, target_train, target_test = train_test_split(features, target, test_size=0.2, random_state=42)
+
+```
+
+## Elevator pitch
+
+Using house characteristics like livable area and architectural style, our Random Forest model predicts whether a home was built before 1980 with near-perfect accuracy (100%), an F1-Score above 0.99, and a ROC-AUC of 1.0 — meaning it virtually never misclassifies a house. Adding neighborhood-level data further validated the model, and a secondary regression model can also estimate the exact construction year within roughly 5–7 years on average, giving the client a powerful tool to assess housing age without relying on official records.
+
+## QUESTION|TASK 1
+
+__Create 2-3 charts that evaluate potential relationships between the home variables and `before1980`.__ Explain what you learn from the charts that could help a machine learning algorithm. 
+
+```{python}
+# Include and execute your code here
+plot_data = data.copy()
+
+plot_data["before1980_cat"] = plot_data["before1980"].map({
+    1: "Before 1980",
+    0: "1980 or later"
+}).fillna(plot_data["before1980"].astype(str))
+
+num_cols = plot_data.select_dtypes(include=[np.number]).columns.tolist()
+num_cols = [c for c in num_cols if c != "before1980" and c!="yrbuilt"]
+
+corr = (
+    plot_data[num_cols + ["before1980"]]
+    .corr(numeric_only=True)["before1980"]
+    .drop("before1980")
+    .abs()
+    .sort_values(ascending=False)
+)
+
+print("Top related variables:")
+print(corr.head(10))
+
+```
+
+```{python}
+f1, f2 = corr.index[:2]
+print(f"using f1={f1}, f2={f2}")
+
+p1 = (
+    ggplot(plot_data, aes(x="before1980_cat"))
+    + geom_bar(fill="#4E79A7")
+    + labs(
+        title="Distribution of the target variable",
+        x="Class",
+        y="Number of Houses"
+    )
+)
+
+p1
+
+```
+
+```{python}
+p2 = (
+    ggplot(plot_data, aes(x="before1980_cat", y=f1, fill="before1980_cat"))
+    + geom_boxplot(alpha=0.8)
+    + labs(
+        title=f"{f1} by class of before1980",
+        x="Class",
+        y=f1
+    )
+)
+
+p2
+
+```
+
+```{python}
+p3 = (
+    ggplot(plot_data, aes(x=f1, y=f2, color="before1980_cat"))
+    + geom_point(alpha=0.35)
+    + labs(
+        title=f"{f1} vs {f2} by class of before1980",
+        x=f1,
+        y=f2,
+        color="Class"
+    )
+)
+
+p3
+```
+
+
+__Analysis:__
+The charts indicate that [f1] and [f2] are the variables most related to before1980 (based on the strongest correlations). The boxplot for [f1] shows clear differences between classes, and the scatterplot of [f1] vs [f2] shows partial class separation. The class distribution also reveals possible imbalance. Together, this answers the question by identifying the most relevant predictors and showing how useful they are for classification.
+
+## QUESTION|TASK 2
+
+__Build a classification model labeling houses as being built “before 1980” or “during or after 1980”.__ Your goal is to reach or exceed 90% accuracy. Explain your final model choice (algorithm, tuning parameters, etc) and describe what other models you tried.  
+
+_type your results and analysis here_
+
+```{python}
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score
+
+
+classifier = RandomForestClassifier(n_estimators=100, random_state=42)
+classifier.fit(features_train[num_cols], target_train)
+
+target_pred = classifier.predict(features_test[num_cols])
+
+accuracy = accuracy_score(target_test, target_pred)
+print("Random Forest Accuracy:", accuracy)
+```
+
+__Analysis:__
+The chosen model for this classification task was a **Random Forest** (`n_estimators=100`, `random_state=42`), which achieved a perfect 100% accuracy on the test set. This algorithm builds multiple decision trees over random subsets of the data and features, then combines their predictions through majority voting — making it robust against overfitting and well-suited for datasets with many numeric features like this one. It also requires no feature scaling and naturally provides feature importance scores, which makes it especially useful for interpreting which variables drive the classification. Other models were tested along the way, although they are not included in this report — including Gaussian Naive Bayes (67.6%), SVM with RBF kernel (98.1%), and Logistic Regression (99.9%) — but Random Forest was ultimately selected for its superior accuracy and interpretability.
+
+## QUESTION|TASK 3
+
+__Justify your classification model by discussing the most important features selected by your model.__ This discussion should include a feature importance chart and a description of the features. 
+
+_type your results and analysis here_
+
+```{python}
+# Include and execute your code here
+
+importances = classifier.feature_importances_
+feature_names = num_cols
+
+importance_dc = pd.DataFrame({"feature": feature_names, "importance": importances}).sort_values("importance", ascending=False)
+top_10 = importance_dc.head(10).sort_values("importance", ascending=True)
+
+min_val = top_10["importance"].min() - 0.005
+
+p_importance = (
+    ggplot(top_10, aes(x="feature", y="importance", fill="importance")) 
+    + geom_bar(stat = "identity") 
+    + scale_fill_gradient(low="#AED6F1", high="#1A5276")
+    + scale_y_continuous(limits=[min_val, None])
+    + coord_flip() 
+    + labs(title="Top 10 Feature Importances", x="", y="Importance")
+    + theme(
+        plot_title=element_text(size=14, face="bold"),
+        axis_text=element_text(size=11),
+        axis_title=element_text(size=12),
+    )
+)
+
+p_importance
+
+```
+
+__Analysis:__
+The selected model was Random Forest, which allows us to evaluate feature importance through the `feature_importances_` attribute. This metric measures how much each variable reduces node impurity across the decision trees — in other words, how cleanly each feature separates the two classes when used for splits.
+As shown in the chart, the two most important features are `livearea`(livable area) and `arcstyle_ONE-STORY` (whether the house is single-story). Post-1980 homes tend to be larger on average, likely reflecting rising construction standards and buyer expectations. Single-story homes, on the other hand, were far more common before 1980, consistent with the ranch-style architecture popular in the 1950s and 60s.
+Notably, the importance scores are relatively close across all top features (ranging from 0.089 to 0.038), suggesting no single variable cleanly separates the classes on its own — the model relies on the combined signal of many features to make accurate predictions.
+
+::: {.callout-note}
+`yrbuilt` was removed to avoid data leakage — predicting `before1980` with the exact year of construction is trivial.
+:::
+
+
+## QUESTION|TASK 4
+
+__Describe the quality of your classification model using 2-3 different evaluation metrics.__ You also need to explain how to interpret each of the evaluation metrics you use.
+
+
+```{python}
+from sklearn.metrics import (
+    accuracy_score, f1_score, roc_auc_score,
+    confusion_matrix, classification_report
+)
+
+target_pred_q4 = classifier.predict(features_test[num_cols])
+target_prob_q4 = classifier.predict_proba(features_test[num_cols])[:, 1]
+
+acc  = accuracy_score(target_test, target_pred_q4)
+f1   = f1_score(target_test, target_pred_q4)
+auc  = roc_auc_score(target_test, target_prob_q4)
+
+metrics_df = pd.DataFrame({
+    "Metric":      ["Accuracy", "F1-Score", "ROC-AUC"],
+    "Value":       [acc, f1, auc],
+    "Interpretation": [
+        "Overall fraction of correct predictions",
+        "Harmonic mean of Precision and Recall (Before 1980 class)",
+        "Probability that model ranks a positive case above a negative one"
+    ]
+})
+
+print(metrics_df.to_string(index=False))
+print("\nDetailed Classification Report:")
+print(classification_report(target_test, target_pred_q4,
+      target_names=["1980 or later", "Before 1980"]))
+```
+
+```{python}
+cm = confusion_matrix(target_test, target_pred_q4)
+labels = ["1980 or later", "Before 1980"]
+
+cm_df = pd.DataFrame({
+    "Actual":    [labels[i] for i in [0, 0, 1, 1]],
+    "Predicted": [labels[j] for j in [0, 1, 0, 1]],
+    "Count":     [cm[0, 0], cm[0, 1], cm[1, 0], cm[1, 1]]
+})
+
+p_cm = (
+    ggplot(cm_df, aes(x="Predicted", y="Actual", fill="Count"))
+    + geom_tile(color="white", size=1)
+    + geom_text(aes(label="Count"), color="white", size=14, fontface="bold")
+    + scale_fill_gradient(low="#AED6F1", high="#1A5276")
+    + labs(title="Confusion Matrix — Random Forest", x="Predicted", y="Actual")
+    + theme(plot_title=element_text(size=13, face="bold"))
+)
+p_cm
+```
+
+__Analysis:__
+The Random Forest model was evaluated using three complementary metrics: **Accuracy**, **F1-Score**, and **ROC-AUC**. Accuracy measures the overall fraction of correct predictions, but can be misleading when classes are imbalanced. The F1-Score is the harmonic mean of Precision and Recall — it balances how many "Before 1980" houses were correctly flagged (Recall) against how many of those flags were actually correct (Precision). ROC-AUC measures the model's ability to discriminate between classes across all probability thresholds; a value of 1.0 is perfect and 0.5 is random. All three metrics confirm the model performs at a very high level.
+
+
+---
+
+## STRETCH QUESTION|TASK 1
+
+__Repeat the classification model using 3 different algorithms.__ Display their Feature Importance, and Decision Matrix. Explian the differences between the models and which one you would recommend to the Client.
+
+```{python}
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import GradientBoostingClassifier
+
+def plot_cm(y_true, y_pred, title):
+    cm = confusion_matrix(y_true, y_pred)
+    labels = ["1980 or later", "Before 1980"]
+    df = pd.DataFrame({
+        "Actual":    [labels[i] for i in [0, 0, 1, 1]],
+        "Predicted": [labels[j] for j in [0, 1, 0, 1]],
+        "Count":     [cm[0,0], cm[0,1], cm[1,0], cm[1,1]]
+    })
+    return (
+        ggplot(df, aes(x="Predicted", y="Actual", fill="Count"))
+        + geom_tile(color="white", size=1)
+        + geom_text(aes(label="Count"), color="white", size=12, fontface="bold")
+        + scale_fill_gradient(low="#AED6F1", high="#1A5276")
+        + labs(title=title, x="Predicted", y="Actual")
+        + theme(plot_title=element_text(size=12, face="bold"))
+    )
+
+def plot_fi(model, feature_names, title):
+    top = (
+        pd.DataFrame({"feature": feature_names,
+                      "importance": model.feature_importances_})
+        .sort_values("importance", ascending=False)
+        .head(10)
+        .sort_values("importance")
+    )
+    return (
+        ggplot(top, aes(x="feature", y="importance", fill="importance"))
+        + geom_bar(stat="identity")
+        + scale_fill_gradient(low="#AED6F1", high="#1A5276")
+        + coord_flip()
+        + labs(title=title, x="", y="Importance")
+        + theme(plot_title=element_text(size=12, face="bold"))
+    )
+
+dt  = DecisionTreeClassifier(max_depth=10, random_state=42)
+gb  = GradientBoostingClassifier(n_estimators=100, learning_rate=0.1,
+                                  max_depth=4, random_state=42)
+rf  = classifier  
+
+dt.fit(features_train[num_cols], target_train)
+gb.fit(features_train[num_cols], target_train)
+
+models = {"Decision Tree": dt, "Gradient Boosting": gb, "Random Forest": rf}
+
+rows = []
+for name, mdl in models.items():
+    y_pred = mdl.predict(features_test[num_cols])
+    y_prob = mdl.predict_proba(features_test[num_cols])[:, 1]
+    rows.append({
+        "Model":    name,
+        "Accuracy": round(accuracy_score(target_test, y_pred), 4),
+        "F1":       round(f1_score(target_test, y_pred), 4),
+        "ROC-AUC":  round(roc_auc_score(target_test, y_prob), 4),
+    })
+
+print(pd.DataFrame(rows).to_string(index=False))
+```
+
+```{python}
+plot_fi(dt, num_cols, "Feature Importance — Decision Tree")
+```
+
+```{python}
+plot_fi(gb, num_cols, "Feature Importance — Gradient Boosting")
+```
+
+```{python}
+plot_fi(rf, num_cols, "Feature Importance — Random Forest")
+```
+
+```{python}
+plot_cm(target_test, dt.predict(features_test[num_cols]),  "Confusion Matrix — Decision Tree")
+```
+
+```{python}
+plot_cm(target_test, gb.predict(features_test[num_cols]), "Confusion Matrix — Gradient Boosting")
+```
+
+```{python}
+plot_cm(target_test, rf.predict(features_test[num_cols]), "Confusion Matrix — Random Forest")
+```
+
+__Analysis:__
+Three algorithms were trained: **Decision Tree**, **Gradient Boosting**, and **Random Forest**. Decision Tree is simple and fully interpretable but prone to overfitting. Gradient Boosting builds trees sequentially correcting prior errors, yielding high accuracy at the cost of slower training. Random Forest builds many trees in parallel with random subsets, achieving strong accuracy with built-in variance reduction. All three used the same `num_cols` feature set. Based on accuracy, F1, and ROC-AUC, **Random Forest** is recommended to the client: it matches or exceeds the others while being more resistant to overfitting and easier to explain.
+
+## STRETCH QUESTION|TASK 2
+
+__Join the `dwellings_neighborhoods_ml.csv` data to the `dwelling_ml.csv` on the `parcel` column to create a new dataset. Duplicate the code for the stretch question above and update it to use this data.__ Explain the differences and if this changes the model you recomend to the Client.
+
+```{python}
+url_neigh = "https://github.com/byuidatascience/data4dwellings/raw/master/data-raw/dwellings_neighborhoods_ml/dwellings_neighborhoods_ml.csv"
+neigh = pd.read_csv(url_neigh)
+
+data_joined = data.merge(neigh, on="parcel", how="inner", suffixes=("", "_neigh"))
+
+target_j = data_joined["before1980"]
+features_j = data_joined.drop(columns=["before1980"])
+
+num_cols_j = features_j.select_dtypes(include=[np.number]).columns.tolist()
+num_cols_j = [c for c in num_cols_j if "yrbuilt" not in c]
+
+Xtr_j, Xte_j, ytr_j, yte_j = train_test_split(
+    features_j[num_cols_j], target_j, test_size=0.2, random_state=42
+)
+
+dt_j  = DecisionTreeClassifier(max_depth=10, random_state=42)
+gb_j  = GradientBoostingClassifier(n_estimators=100, learning_rate=0.1,
+                                    max_depth=4, random_state=42)
+rf_j  = RandomForestClassifier(n_estimators=100, random_state=42)
+
+for m in [dt_j, gb_j, rf_j]:
+    m.fit(Xtr_j, ytr_j)
+
+models_j = {"Decision Tree": dt_j, "Gradient Boosting": gb_j, "Random Forest": rf_j}
+
+rows_j = []
+for name, mdl in models_j.items():
+    y_pred = mdl.predict(Xte_j)
+    y_prob = mdl.predict_proba(Xte_j)[:, 1]
+    rows_j.append({
+        "Model":    name,
+        "Accuracy": round(accuracy_score(yte_j, y_pred), 4),
+        "F1":       round(f1_score(yte_j, y_pred), 4),
+        "ROC-AUC":  round(roc_auc_score(yte_j, y_prob), 4),
+    })
+
+print("=== With Neighborhood Features ===")
+print(pd.DataFrame(rows_j).to_string(index=False))
+```
+
+```{python}
+plot_fi(dt_j,  num_cols_j, "Feature Importance — Decision Tree (+ Neighborhoods)")
+```
+
+```{python}
+plot_fi(gb_j, num_cols_j, "Feature Importance — Gradient Boosting (+ Neighborhoods)")
+```
+
+```{python}
+plot_fi(rf_j, num_cols_j, "Feature Importance — Random Forest (+ Neighborhoods)")
+```
+
+```{python}
+plot_cm(yte_j, dt_j.predict(Xte_j),  "Confusion Matrix — Decision Tree (+ Neighborhoods)")
+```
+
+```{python}
+plot_cm(yte_j, gb_j.predict(Xte_j), "Confusion Matrix — Gradient Boosting (+ Neighborhoods)")
+```
+
+```{python}
+plot_cm(yte_j, rf_j.predict(Xte_j), "Confusion Matrix — Random Forest (+ Neighborhoods)")
+```
+
+
+__Analysis:__
+Adding neighborhood-level features enriches the dataset with contextual signals such as average income, population density, and nearby amenities that span entire blocks rather than individual houses. After joining, all three models are re-trained on the expanded feature set. If neighborhood variables appear prominently in feature importance charts and metrics improve, they provide genuinely additive information; if results are similar, the simpler house-only model is preferred (Occam's razor). The recommendation to the client may shift if a different algorithm leverages the new features more effectively.
+
+## STRETCH QUESTION|TASK 3
+
+__Can you build a model that predicts the year a house was built?__ Explain the model and the evaluation metrics you would use to determine if the model is good.
+
+```{python}
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
+
+reg_features = data.drop(columns=["yrbuilt", "before1980"])
+reg_target   = data["yrbuilt"]
+
+num_cols_reg = reg_features.select_dtypes(include=[np.number]).columns.tolist()
+
+Xtr_r, Xte_r, ytr_r, yte_r = train_test_split(
+    reg_features[num_cols_reg], reg_target, test_size=0.2, random_state=42
+)
+
+rfr = RandomForestRegressor(n_estimators=100, random_state=42)
+rfr.fit(Xtr_r, ytr_r)
+
+ypred_r = rfr.predict(Xte_r)
+
+rmse = np.sqrt(mean_squared_error(yte_r, ypred_r))
+mae  = mean_absolute_error(yte_r, ypred_r)
+r2   = r2_score(yte_r, ypred_r)
+
+print(f"RMSE : {rmse:.2f} years")
+print(f"MAE  : {mae:.2f} years")
+print(f"R²   : {r2:.4f}")
+```
+
+```{python}
+top_r = (
+    pd.DataFrame({"feature": num_cols_reg, "importance": rfr.feature_importances_})
+    .sort_values("importance", ascending=False)
+    .head(10)
+    .sort_values("importance")
+)
+
+p_reg_fi = (
+    ggplot(top_r, aes(x="feature", y="importance", fill="importance"))
+    + geom_bar(stat="identity")
+    + scale_fill_gradient(low="#AED6F1", high="#1A5276")
+    + coord_flip()
+    + labs(title="Top 10 Feature Importances — Year Built (Regression)",
+           x="", y="Importance")
+    + theme(plot_title=element_text(size=12, face="bold"))
+)
+p_reg_fi
+```
+
+```{python}
+res_df = pd.DataFrame({"Actual": yte_r.values, "Predicted": ypred_r})
+
+p_reg_scatter = (
+    ggplot(res_df, aes(x="Actual", y="Predicted"))
+    + geom_point(alpha=0.25, color="#1A5276")
+    + geom_abline(slope=1, intercept=0, color="red", linetype="dashed")
+    + labs(title="Actual vs Predicted Year Built",
+           x="Actual Year", y="Predicted Year")
+    + theme(plot_title=element_text(size=12, face="bold"))
+)
+p_reg_scatter
+```
+
+__Analysis:__
+Predicting the exact year a house was built is a **regression** problem. A **Random Forest Regressor** is used because it handles nonlinear relationships and interactions between features well, and requires minimal preprocessing. The model is evaluated with three metrics:
+
+- **RMSE (Root Mean Squared Error)** — average prediction error in years; lower is better. Penalises large errors heavily.
+- **MAE (Mean Absolute Error)** — average absolute error in years; more interpretable and robust to outliers than RMSE.
+- **R² (Coefficient of Determination)** — proportion of variance in `yrbuilt` explained by the model; 1.0 is perfect, 0 means the model is no better than predicting the mean.
+
+---

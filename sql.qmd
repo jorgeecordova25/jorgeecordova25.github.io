@@ -1,0 +1,28 @@
+---
+title: "SQL"
+subtitle: "Project Summary"
+# use quarto markdown to 
+---
+
+## Project 3: Finding Relationships in Baseball (SQL Integration)
+
+This project explores complex relationships within the Lahman Baseball Database by leveraging SQL for data extraction and Python for visualization. The analysis focuses on connecting disparate entities—such as players, salaries, and academic backgrounds—to uncover historical performance and financial trends.
+
+### 🛠️ Technologies & Tools
+* **Database:** SQLite (Lahman Baseball Database)
+* **Language:** SQL & Python
+* **Data Visualization:** Lets-Plot
+* **Reporting:** Quarto & Markdown
+
+### 🎯 Project Objectives
+* **Relational Data Extraction:** Authored precise SQL queries to bridge player performance metrics with financial data across multiple tables (Salaries, Schools, Batting, Fielding).
+* **Targeted Institutional Analysis:** Identified and analyzed the professional trajectories and earnings of MLB players who attended BYU-Idaho.
+* **Performance Metric Engineering:** Developed multi-part queries to calculate career-wide and season-specific batting averages, implementing strict filters for statistical significance (e.g., minimum at-bats).
+* **Comparative Team Analytics:** Executed a data-driven comparison between two MLB franchises using custom metrics like average salary or total home runs to visualize competitive advantages.
+
+### 📈 Key Results
+* **SQL Proficiency:** Demonstrated mastery of advanced SQL techniques including joins, alphabetical and numerical sorting, and subqueries for position-based salary distribution.
+* **Complex Feature Calculation:** Successfully computed career longevity and performance categories using `CASE` statements and aggregation functions directly within SQL queries.
+* **Actionable Insights:** Transformed raw relational data into visual narratives that explain the correlation between player roles (positions) and their market value.
+
+[MarkDown Basics](https://quarto.org/docs/authoring/markdown-basics.html#links-images)
