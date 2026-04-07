@@ -4,7 +4,19 @@ subtitle: "my data science portfolio"
 # use quarto markdown to 
 ---
 
-# Title 1 Header
-## Title 2 Header
+# Data Science & Applied Analytics Portfolio
+
+This portfolio serves as a comprehensive showcase of data science projects developed during the **DS 250 course**. Each project represents a specialized deep dive into the core pillars of modern analytics: **Robust Data Wrangling**, **Relational Database Management (SQL)**, and **Predictive Modeling** using Machine Learning.
+
+### Technical Core
+The work presented here is centered on the ability to transform "raw, messy data" into structured, actionable intelligence. By utilizing the **Python** ecosystem and **Quarto** for reproducible reporting, these projects demonstrate a mastery of:
+
+* **Data Engineering:** Automating the cleaning of inconsistent JSON and CSV structures using NumPy, Pandas, and Regular Expressions.
+* **Relational Intelligence:** Executing complex SQL queries to bridge performance metrics and financial data across large-scale databases.
+* **Predictive Modeling:** Implementing Scikit-Learn classifiers to solve high-stakes problems, achieving high accuracy in construction era identification and socioeconomic forecasting.
+* **Reproducible Science:** Crafting technical documentation that integrates executable code with clear, stakeholder-oriented narratives.
+
+### Project Roadmap
+The projects are organized by their primary technical challenge, ranging from initial environment setup and exploratory visualization to advanced machine learning deployment and survey data munging. Each section contains the full technical methodology, visualization results, and key analytical takeaways.
 
 [MarkDown Basics](https://quarto.org/docs/authoring/markdown-basics.html#links-images)
